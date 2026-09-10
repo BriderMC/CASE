@@ -1,8 +1,8 @@
-CASE is a Minecraft **1.21.1 / NeoForge 21.1.248** modpack built around Create,
+CASE is a Minecraft **1.21.1 / NeoForge** modpack built around Create,
 Aeronautics, technology progression, custom recipes, and quests.
 
 Import the CurseForge ZIP into PrismLauncher with **Add Instance → Import**,
-or install the published pack through CurseForge.
+or install the published pack through CurseForge or Modrinth launchers.
 
 ## License and credits
 
