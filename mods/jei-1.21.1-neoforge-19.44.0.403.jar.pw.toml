@@ -1,0 +1,12 @@
+name = "19.44.0.403 for NeoForge 1.21.1"
+filename = "jei-1.21.1-neoforge-19.44.0.403.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "f027864a444572205a546c78c48b882335540eb2"
+
+[update.curseforge]
+project-id = 238222
+file-id = 8678372

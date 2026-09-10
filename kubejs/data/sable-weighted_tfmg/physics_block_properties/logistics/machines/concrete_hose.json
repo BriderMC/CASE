@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:concrete_hose",
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 1.0
+  }
+}

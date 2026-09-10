@@ -1,0 +1,14 @@
+name = "CASE"
+author = "BriderMC"
+version = "0.1"
+description = "Create Aeronautics: Space Exploration"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "96ee652dc52cba4e3f41d721d0aa316c1be36a71c50d5d6251d037a6987b6996"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

@@ -1,0 +1,12 @@
+name = "AE2 KeyCounter Overflow Fix"
+filename = "ae2keycounteroverflowfix-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "720c072ba00e18fd52910521ea13d88fe5e31758"
+
+[update.curseforge]
+project-id = 1643789
+file-id = 8598422

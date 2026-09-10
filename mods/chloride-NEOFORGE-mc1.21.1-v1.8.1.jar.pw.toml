@@ -1,0 +1,12 @@
+name = "chloride-1.8.1-NEOFORGE-1.21.1"
+filename = "chloride-NEOFORGE-mc1.21.1-v1.8.1.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "50454011525e2862678b15d94484fd32a5a54dfb"
+
+[update.curseforge]
+project-id = 931925
+file-id = 8462029

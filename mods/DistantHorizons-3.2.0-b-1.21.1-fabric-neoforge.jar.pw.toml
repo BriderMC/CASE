@@ -1,0 +1,12 @@
+name = "3.2.0-b - 1.21.1 neo/fabric"
+filename = "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "df25e8cfe06917963778723a1d9a60610dd21bec"
+
+[update.curseforge]
+project-id = 508933
+file-id = 8389148

@@ -1,0 +1,20 @@
+{
+  "fluid": "tfmg:kerosene",
+  "sound_pitch": 0.9,
+  "normal": {
+    "speed": 94.0,
+    "strength": 6038.0,
+    "burn_rate": 0.05
+  },
+  "modular": {
+    "speed": 94.0,
+    "strength": 8050.0,
+    "burn_rate": 0.05
+  },
+  "huge": {
+    "speed": 220.0,
+    "strength": 16101.0,
+    "burn_rate": 0.05
+  },
+  "burner_multiplier": 0.6
+}

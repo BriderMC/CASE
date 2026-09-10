@@ -1,0 +1,12 @@
+name = "Tom's storage Create style 2.1+3D"
+filename = "Create_Simple_Storage_2.1+3D.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "f36a96560b3d0b8e71dbb94fdd31d5acf58c1b8e"
+
+[update.curseforge]
+project-id = 1561221
+file-id = 8182730

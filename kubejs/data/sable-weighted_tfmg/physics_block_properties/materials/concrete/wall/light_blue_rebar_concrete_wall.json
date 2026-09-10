@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:light_blue_rebar_concrete_wall",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

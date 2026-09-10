@@ -1,0 +1,14 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      "Failed to apply tag physics properties. Unknown block:"
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+      ".*Failed to apply tag physics properties\\. Unknown block:.*"
+    ]
+  }
+}

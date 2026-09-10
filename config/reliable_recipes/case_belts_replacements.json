@@ -1,0 +1,32 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#minecraft:planks",
+    "replacement": "tfmg:heavy_plate",
+    "id": [
+      "belts:chute_item",
+      "belts:support_item"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:copper_ingot",
+    "replacement": "#c:ingots/osmium",
+    "id": [
+      "belts:chute_item",
+      "belts:support_item"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stick",
+    "replacement": "#c:ingots/osmium",
+    "id": "belts:belt_item"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:dried_kelp",
+    "replacement": "rubberworks:rubber_sheet",
+    "id": "belts:belt_item"
+  }
+]

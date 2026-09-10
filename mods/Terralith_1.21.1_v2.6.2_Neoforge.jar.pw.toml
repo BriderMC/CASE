@@ -1,0 +1,12 @@
+name = "v2.6.2 ~ Neoforge Mod 1.21.1"
+filename = "Terralith_1.21.x_v2.6.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224"
+
+[update.curseforge]
+project-id = 513688
+file-id = 8222737

@@ -1,0 +1,12 @@
+name = "corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar"
+filename = "corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "821d83bb4414e93721563e9ed7670976bc2afab1"
+
+[update.curseforge]
+project-id = 1138130
+file-id = 7891800

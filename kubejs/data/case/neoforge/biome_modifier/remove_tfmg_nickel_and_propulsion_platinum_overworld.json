@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "tfmg:nickel_ore",
+    "createpropulsion:ore_platinum",
+    "createpropulsion:ore_platinum_buried",
+    "createpropulsion:ore_platinum_medium",
+    "createpropulsion:ore_platinum_large"
+  ],
+  "steps": ["underground_ores"]
+}

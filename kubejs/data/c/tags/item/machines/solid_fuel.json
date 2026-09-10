@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oritech:basic_generator_block",
+    "simulated:red_portable_engine",
+    "createpropulsion:solid_burner",
+    "createlowheated:basic_burner"
+  ]
+}

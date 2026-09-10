@@ -1,0 +1,12 @@
+name = "[NeoForge] Reese's Sodium Options 2.2.3 - Minecraft 1.21.1"
+filename = "reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "904f815b1f5c48703c354d432fcbc3531022337f"
+
+[update.curseforge]
+project-id = 511319
+file-id = 8410876

@@ -1,0 +1,12 @@
+name = "NeoForge-1.21.1-1.0.2"
+filename = "Searchables-neoforge-1.21.1-1.0.2.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "5b8a0b43a474c066371b2e16f9bfb88622552a74"
+
+[update.curseforge]
+project-id = 858542
+file-id = 5831692

@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:electrical_switch",
+  "properties": {
+    "sable:mass": 1.1,
+    "sable:volume": 0.7
+  }
+}

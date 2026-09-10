@@ -1,0 +1,12 @@
+name = "astages_ftbquests-2.1.0-1.21.1"
+filename = "astages_ftbquests-2.1.0-1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "7e6d73b734cca3a8f27c06d56dc2c3b73439dfc9"
+
+[update.curseforge]
+project-id = 1565842
+file-id = 8388831

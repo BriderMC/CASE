@@ -1,0 +1,312 @@
+{
+	autofocus_id: "01F44B84C4451441"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chpater_5__circuits"
+	group: "0A59318266D808D9"
+	icon: {
+		id: "tfmg:circuit_board"
+	}
+	id: "306D5DDB369832E4"
+	images: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "refinedstorage:textures/gui/sprites/start.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "01F44B84C4451441"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7EB7C5E0916BAF79"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01F44B84C4451441"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "mekanism:dust_sulfur"
+			}
+			id: "1A95B43FFA03E218"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "2D07E6BDEF66D8C9"
+				item: { count: 1, id: "mekanism:dust_sulfur" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A95B43FFA03E218"]
+			icon: {
+				id: "tfmg:nitrate_dust"
+			}
+			id: "1F7B4E400036793F"
+			tasks: [
+				{
+					id: "15921D0AE57BFE51"
+					item: { count: 1, id: "tfmg:nitrate_dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "73B14477E56B0853"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A95B43FFA03E218"]
+			icon: {
+				id: "tfmg:steel_chemical_vat"
+			}
+			id: "0EFBFE00008E8EC5"
+			tasks: [
+				{
+					id: "553956E7E6592547"
+					item: { count: 1, id: "tfmg:steel_chemical_vat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53D5DF169EC38CF5"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1F7B4E400036793F"
+				"0EFBFE00008E8EC5"
+			]
+			dependency_requirement: "one_completed"
+			id: "12824843F642F957"
+			tasks: [{
+				id: "7655289302DCBF52"
+				item: { count: 1, id: "mekanism:sulfuric_acid_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12824843F642F957"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "tfmg:empty_circuit_board"
+			}
+			id: "1DAAE663BE2D0374"
+			tasks: [
+				{
+					id: "375FD21D510850BA"
+					item: { count: 1, id: "tfmg:plastic_sheet" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E327D1D11F905F8"
+					item: { count: 1, id: "create:mechanical_press" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26E2773344C0BED7"
+					item: { count: 1, id: "tfmg:empty_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DAAE663BE2D0374"]
+			icon: {
+				id: "tfmg:coated_circuit_board"
+			}
+			id: "4ADF65C40D0B0021"
+			tasks: [
+				{
+					id: "76D743BFD71E9920"
+					item: { count: 1, id: "create:copper_sheet" }
+					type: "item"
+				}
+				{
+					id: "1EE40C8480D9526D"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "35B068CC184D4A3F"
+					item: { count: 1, id: "tfmg:coated_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ADF65C40D0B0021"]
+			icon: {
+				id: "tfmg:etched_circuit_board"
+			}
+			id: "383D94D26F09C26B"
+			tasks: [
+				{
+					id: "1BFB760A3484D1F9"
+					item: { count: 1, id: "tfmg:coated_circuit_board" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "002E0E6A6960888E"
+					item: { count: 1, id: "tfmg:steel_chemical_vat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DE2AC402F9D96AC"
+					item: { count: 1, id: "mekanism:sulfuric_acid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0026E21DA0183DFD"
+					item: { count: 1, id: "tfmg:etched_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43E9444601121E61"]
+			id: "7A7053D5D850070F"
+			optional: true
+			tasks: [{
+				id: "637FC483CA673C9A"
+				item: { count: 1, id: "tfmg:resistor" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43E9444601121E61"]
+			id: "4BAFB992AE6B773A"
+			optional: true
+			tasks: [{
+				id: "5E16BB8AF184A27A"
+				item: { count: 1, id: "tfmg:capacitor_item" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43E9444601121E61"]
+			id: "2D928ADFA9C6A2B7"
+			optional: true
+			tasks: [{
+				id: "5D8DE98DB6403926"
+				item: { count: 1, id: "tfmg:transistor_item" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["383D94D26F09C26B"]
+			icon: {
+				id: "tfmg:circuit_board"
+			}
+			id: "43E9444601121E61"
+			tasks: [
+				{
+					id: "07F6F28C13707C6B"
+					item: { count: 1, id: "create:deployer" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5FC124F85AB7C133"
+					item: { count: 1, id: "tfmg:etched_circuit_board" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "689698DD0FD1E25C"
+					item: { count: 1, id: "tfmg:capacitor_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E5FBCE2B2B08650"
+					item: { count: 1, id: "tfmg:resistor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2BE5EC766E8E6302"
+					item: { count: 1, id: "tfmg:transistor_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A2E6DA8AF825B13"
+					item: { count: 1, id: "tfmg:resistor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E3F0C22FF0E9189"
+					item: { count: 1, id: "tfmg:circuit_board" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43E9444601121E61"]
+			icon: {
+				components: {
+					"ftbquests:icon": "quark:textures/emote/wave.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "75D4AEE5CE3C5B95"
+			rewards: [{
+				id: "215C10819AF11B2E"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "648710543B57BACE"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+}

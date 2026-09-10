@@ -1,0 +1,29 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:cast_iron_vat",
+    "tfmg:steel_vat",
+    "tfmg:firebrick_lined_vat"
+  ],
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "case:sodium_aluminate"
+    }
+  ],
+  "machines": [
+    "tfmg:centrifuge"
+  ],
+  "min_size": 1,
+  "results": [
+    {
+      "count": 2,
+      "id": "moremekanismprocessing:dust_aluminum"
+    },
+    {
+      "amount": 950,
+      "id": "northstar:sodium"
+    }
+  ]
+}

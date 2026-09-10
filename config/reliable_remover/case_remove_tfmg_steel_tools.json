@@ -1,0 +1,12 @@
+[
+  {
+    "action": "remove",
+    "items": [
+      "tfmg:steel_sword",
+      "tfmg:steel_pickaxe",
+      "tfmg:steel_axe",
+      "tfmg:steel_shovel",
+      "tfmg:steel_hoe"
+    ]
+  }
+]

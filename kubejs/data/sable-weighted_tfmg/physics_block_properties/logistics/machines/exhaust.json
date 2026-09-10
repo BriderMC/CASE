@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:exhaust",
+  "properties": {
+    "sable:mass": 0.3,
+    "sable:volume": 1.0
+  }
+}

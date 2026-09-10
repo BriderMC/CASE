@@ -1,0 +1,12 @@
+name = "1.1.24+1.21.1+neoforge"
+filename = "emi-1.1.24+1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
+
+[update.curseforge]
+project-id = 580555
+file-id = 8081408

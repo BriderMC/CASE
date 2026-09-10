@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:rebar_floor",
+  "properties": {
+    "sable:mass": 0.6,
+    "sable:volume": 1.0
+  }
+}

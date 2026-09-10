@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:electric_motor",
+  "properties": {
+    "sable:mass": 0.75,
+    "sable:volume": 0.5
+  }
+}

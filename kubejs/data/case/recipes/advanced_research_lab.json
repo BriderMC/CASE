@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GCG",
+    "TST"
+  ],
+  "key": {
+    "T": {
+      "item": "northstar:titanium_block"
+    },
+    "G": {
+      "item": "mekanism:structural_glass"
+    },
+    "C": {
+      "item": "refinedstorage:machine_casing"
+    },
+    "S": {
+      "item": "northstar:lunar_sapphire_crystal"
+    }
+  },
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "count": 1,
+    "components": {
+      "modular_machinery_reborn:machine": "case:advanced_research_lab"
+    }
+  }
+}

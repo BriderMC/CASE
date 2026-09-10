@@ -1,0 +1,9 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:phantom_membrane",
+    "replacement": "#minecraft:wool",
+    "id": "reliable_gliders:glider",
+    "type": "minecraft:crafting_shaped"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CT"
+  ],
+  "key": {
+    "C": {
+      "item": "moreburners:nickel_coil"
+    },
+    "T": {
+      "item": "northstar:titanium_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "moreburners:heat_upgrade"
+  }
+}

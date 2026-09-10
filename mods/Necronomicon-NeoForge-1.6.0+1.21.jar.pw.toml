@@ -1,0 +1,12 @@
+name = "Necronomicon API 1.6.0"
+filename = "Necronomicon-NeoForge-1.6.0+1.21.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "4d81055810e07a94b68d16ab20ec298ad0d597a0"
+
+[update.curseforge]
+project-id = 586157
+file-id = 5772683

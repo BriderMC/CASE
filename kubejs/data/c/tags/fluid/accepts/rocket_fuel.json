@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfmg:kerosene",
+    "northstar:methane",
+    "northstar:hydrocarbon",
+    "northstar:liquid_hydrogen",
+    "mekanism:hydrogen"
+  ]
+}

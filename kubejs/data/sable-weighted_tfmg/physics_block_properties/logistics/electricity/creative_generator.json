@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:creative_generator",
+  "properties": {
+    "sable:mass": 0,
+    "sable:volume": 1.0
+  }
+}

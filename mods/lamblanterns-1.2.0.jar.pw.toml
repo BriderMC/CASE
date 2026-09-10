@@ -1,0 +1,12 @@
+name = "Lamb Lanterns 1.2.0"
+filename = "lamblanterns-1.2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "5063e2a4f6b1f2501decb26781acbc23c83a8a9c"
+
+[update.curseforge]
+project-id = 1539815
+file-id = 8370046

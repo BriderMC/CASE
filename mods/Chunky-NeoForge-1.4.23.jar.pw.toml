@@ -1,0 +1,12 @@
+name = "Chunky 1.4.23"
+filename = "Chunky-NeoForge-1.4.23.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "ab0c74743a653020fe2dfc4986b43e893947f3e9"
+
+[update.curseforge]
+project-id = 485681
+file-id = 6383261

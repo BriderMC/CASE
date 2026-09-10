@@ -1,0 +1,12 @@
+name = "1.21.1-0.1.21.209"
+filename = "sophisticatedstoragecreateintegration-1.21.1-0.1.21.209.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "d8f72f22459750496008a7c2a39dc865152d075c"
+
+[update.curseforge]
+project-id = 1226755
+file-id = 8503147

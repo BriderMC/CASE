@@ -1,0 +1,12 @@
+name = "[Fabric/Forge/Neo] 1.21.1-8.1"
+filename = "starterkit-1.21.1-8.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "9dff28020422ddaf4d7f677888212df5c2f6fb9d"
+
+[update.curseforge]
+project-id = 390717
+file-id = 8211723

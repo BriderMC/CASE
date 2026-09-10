@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "3137B88360487912"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "5CFCC27885F43D65"
+	images: [{
+		click_action: "none:quest_enhance:text_v3:3.0:17:minecraft:defaultCreate"
+		color: 16761919
+		height: 0.4583333333333333d
+		id: "17CB7F05D8DDD8F4"
+		image: ""
+		rotation: 0.0d
+		width: 1.125d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A4173E2880036B5"
+			tasks: [{
+				id: "79C6A80AA26C5CA0"
+				item: { count: 1, id: "rubberworks:rubber" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A4173E2880036B5"]
+			id: "257FFFC1FAE31971"
+			tasks: [
+				{
+					id: "264A90B7C93BF08E"
+					item: { count: 1, id: "rubberworks:sapper" }
+					type: "item"
+				}
+				{
+					id: "640928555DA61DC9"
+					item: { count: 1, id: "rubberworks:compressor" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "510EC4BA921ABE50"
+			tasks: [{
+				id: "5F8351B79E25D27B"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["510EC4BA921ABE50"]
+			id: "039D264CBCEA9258"
+			tasks: [
+				{
+					id: "4CEB5EBB65D1EF48"
+					item: { count: 1, id: "createpropulsion:solid_burner" }
+					type: "item"
+				}
+				{
+					id: "78D319AC3F738A3D"
+					item: { count: 1, id: "createpropulsion:liquid_burner" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03D74C1582DF57D2"]
+			id: "4400DBE1E9F2D415"
+			size: 1.5d
+			tasks: [
+				{
+					id: "18888F720D08F993"
+					type: "checkmark"
+				}
+				{
+					id: "20432884ACF2EC9F"
+					item: { count: 1, id: "create:wrench" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AC40E21B1A73E19"
+					item: { count: 1, id: "create:goggles" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45FEC804BF75E37F"
+					item: { count: 1, id: "create:speedometer" }
+					type: "item"
+				}
+				{
+					id: "425A10E1643BFDCA"
+					item: { count: 1, id: "create:stressometer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "create:cogwheel"
+			}
+			icon_scale: 1.7d
+			id: "10DEBF92B5BA201D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "27C13D97A21B49E6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

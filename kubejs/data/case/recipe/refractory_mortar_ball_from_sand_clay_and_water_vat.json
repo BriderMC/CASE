@@ -1,0 +1,19 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:cast_iron_vat",
+    "tfmg:steel_vat",
+    "tfmg:firebrick_lined_vat"
+  ],
+  "ingredients": [
+    { "tag": "c:sands" },
+    { "tag": "c:sands" },
+    { "item": "minecraft:clay_ball" },
+    { "type": "neoforge:single", "amount": 100, "fluid": "minecraft:water" }
+  ],
+  "machines": ["tfmg:mixing"],
+  "min_size": 1,
+  "results": [
+    { "id": "createmetallurgy:refractory_mortar_ball" }
+  ]
+}

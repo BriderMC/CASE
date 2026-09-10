@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "createpropulsion:thruster",
+    "createpropulsion:vector_thruster",
+    "createpropulsion:liquid_vector_thruster",
+    "createpropulsion:solid_fuel_thruster",
+    "northstar:rocket_thruster"
+  ]
+}

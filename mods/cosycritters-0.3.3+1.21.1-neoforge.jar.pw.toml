@@ -1,0 +1,12 @@
+name = "v0.3.3 for 1.21.1-neoforge"
+filename = "cosycritters-0.3.3+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "845665cf417af0c8a10714c1691c5ba5c86f99d6"
+
+[update.curseforge]
+project-id = 1182393
+file-id = 8390081

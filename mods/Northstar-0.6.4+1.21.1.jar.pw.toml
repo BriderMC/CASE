@@ -1,0 +1,12 @@
+name = "0.6.4+1.21.1"
+filename = "Northstar-0.6.4+1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "b11a780e6d31218485b308786e023792a6b91a65"
+
+[update.curseforge]
+project-id = 1318310
+file-id = 8486127

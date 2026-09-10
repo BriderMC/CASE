@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:rebar_block",
+  "properties": {
+    "sable:mass": 1.15,
+    "sable:volume": 0.7
+  }
+}

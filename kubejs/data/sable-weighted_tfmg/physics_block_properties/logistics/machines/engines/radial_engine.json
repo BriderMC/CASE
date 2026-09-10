@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:radial_engine",
+  "properties": {
+    "sable:mass": 1.5,
+    "sable:volume": 1.4
+  }
+}

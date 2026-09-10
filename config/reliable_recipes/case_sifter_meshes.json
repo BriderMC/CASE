@@ -1,0 +1,44 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:stick",
+    "replacement": "createdeco:andesite_sheet",
+    "id": "createsifter:crafting/andesite_mesh",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "create:andesite_alloy",
+    "replacement": "createsifter:string_mesh",
+    "id": "createsifter:crafting/andesite_mesh",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stick",
+    "replacement": "#c:plates/brass",
+    "id": "createsifter:crafting/brass_mesh",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "create:brass_ingot",
+    "replacement": "createsifter:string_mesh",
+    "id": "createsifter:crafting/brass_mesh",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stick",
+    "replacement": "tfmg:heavy_plate",
+    "id": "createsifter:crafting/sturdy_mesh",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "create:sturdy_sheet",
+    "replacement": "createsifter:string_mesh",
+    "id": "createsifter:crafting/sturdy_mesh",
+    "type": "minecraft:crafting_shaped"
+  }
+]

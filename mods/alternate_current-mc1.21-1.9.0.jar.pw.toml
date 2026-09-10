@@ -1,0 +1,12 @@
+name = "[1.21 Neoforge] Alternate Current 1.9.0"
+filename = "alternate_current-mc1.21-1.9.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "1201c14362f2bad7062d315f8a9b26afbabd2c9c"
+
+[update.curseforge]
+project-id = 548115
+file-id = 5665477

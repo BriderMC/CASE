@@ -1,0 +1,12 @@
+name = "Presence Footsteps (NeoForge) 1.21.1-1.12.0-beta.1"
+filename = "PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "71bd6de2b01441d92be1e109879b76b7750bd787"
+
+[update.curseforge]
+project-id = 1390302
+file-id = 7252696

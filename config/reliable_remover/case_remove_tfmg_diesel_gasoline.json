@@ -1,0 +1,9 @@
+[
+  {
+    "action": "remove",
+    "fluids": [
+      "tfmg:diesel",
+      "tfmg:gasoline"
+    ]
+  }
+]

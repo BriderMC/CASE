@@ -1,0 +1,12 @@
+name = "2.4.1 (1.21.1)"
+filename = "BadOptimizations-2.4.1-1.21.1.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "1461d8e46391efd32a3085150e86094c9f6f5c9d"
+
+[update.curseforge]
+project-id = 949555
+file-id = 7338300

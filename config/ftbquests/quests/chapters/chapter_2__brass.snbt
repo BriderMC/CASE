@@ -1,0 +1,706 @@
+{
+	autofocus_id: "6F7D9858F9D3DFA5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2__brass"
+	group: "0A59318266D808D9"
+	icon: {
+		id: "create:brass_ingot"
+	}
+	id: "790196F7B6ABC1D9"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E7784B76F0D3CDD"]
+			icon: {
+				id: "createmetallurgy:foundry_lid"
+			}
+			id: "437488187ABA2684"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "1A87B67CD1E4A27D"
+					item: { count: 1, id: "createmetallurgy:foundry_lid" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74A072BC6C2A704C"
+					item: { count: 1, id: "create:wrench" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "73629F8DE7BED9E6"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "refinedstorage:textures/gui/sprites/start.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6F7D9858F9D3DFA5"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1949272093CC7BD4"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E7784B76F0D3CDD"]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "26D173B5484CD84E"
+			ignore_reward_blocking: true
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "56C82EF0185F33F8"
+					item: { count: 1, id: "create:brass_ingot" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09F1DDF3982AC599"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BFF3FFC61C780A2"]
+			icon: {
+				id: "tfmg:coal_coke"
+			}
+			id: "11C0C7106878A06E"
+			tasks: [
+				{
+					id: "2169DE5A99ACC70E"
+					item: { count: 1, id: "minecraft:coal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F5D9908BC101904"
+					item: { count: 1, id: "tfmg:coke_oven" }
+					type: "item"
+				}
+				{
+					id: "1A1DAE042316571F"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64B45047E18D53C8"
+					item: { count: 1, id: "tfmg:brick_smokestack" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00EB9931BBF1882D"
+					item: { count: 1, id: "tfmg:metal_smokestack" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DB897DC6E7E6863"
+					item: { count: 1, id: "tfmg:flarestack" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"11C0C7106878A06E"
+				"6011AB5EAACAE6D9"
+			]
+			dependency_requirement: "all_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "createmetallurgy:fluid/steel/still"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3E69E9D46E6932FC"
+			tasks: [
+				{
+					id: "7A4DAE5C4BF8CABA"
+					item: { count: 1, id: "tfmg:limesand" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "32456295DDB30E7F"
+					item: { count: 1, id: "tfmg:coal_coke" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2C40F5984CC2DA2C"
+					item: { count: 1, id: "createmetallurgy:molten_iron_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4E01E867F99E4811"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E7784B76F0D3CDD"]
+			icon: {
+				id: "mekanism:ingot_steel"
+			}
+			id: "7BFF3FFC61C780A2"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6821D3A8379765AC"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "204E242F438C2B9A"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B0F6F52F153D08E"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "createmetallurgy:foundry_lid"
+			}
+			id: "17283B1C7DBFD636"
+			tasks: [
+				{
+					id: "7D23E4F4AF00E7F9"
+					item: { count: 1, id: "createmetallurgy:foundry_basin" }
+					type: "item"
+				}
+				{
+					id: "67819DAE66B22166"
+					item: { count: 1, id: "createmetallurgy:foundry_lid" }
+					type: "item"
+				}
+				{
+					id: "452CBFB121AC0B8A"
+					item: { count: 1, id: "createmetallurgy:molten_iron_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17283B1C7DBFD636"]
+			id: "7E7784B76F0D3CDD"
+			tasks: [{
+				id: "46B98FF0D7263F48"
+				item: { count: 1, id: "createmetallurgy:foundry_mixer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17283B1C7DBFD636"]
+			id: "1E5E623AA4CE7ADA"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "464C9A00C57F0744"
+				item: { count: 1, id: "createmetallurgy:slag_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B0F6F52F153D08E"]
+			id: "5110B5573ED44156"
+			tasks: [{
+				id: "02C80D21C17A5400"
+				item: { count: 1, id: "createmetallurgy:refractory_mortar" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E5E623AA4CE7ADA"]
+			icon: {
+				id: "createmetallurgy:casting_table"
+			}
+			id: "209A43B12362ACD0"
+			optional: true
+			tasks: [
+				{
+					id: "7250FC5CB58EAA8C"
+					item: { count: 1, id: "createmetallurgy:casting_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5185D424A3BFC525"
+					item: { count: 1, id: "createmetallurgy:casting_basin" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47ADE48B458BFD57"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["209A43B12362ACD0"]
+			id: "2C29D94A514568E9"
+			optional: true
+			tasks: [
+				{
+					id: "40845CADD6EB0F01"
+					item: { count: 1, id: "minecraft:white_concrete_powder" }
+					type: "item"
+				}
+				{
+					id: "46357F6C2BA46F55"
+					item: { count: 1, id: "createdieselgenerators:asphalt_block" }
+					type: "item"
+				}
+				{
+					id: "76040F4A8E1999C6"
+					item: { count: 1, id: "tfmg:cement" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7E7784B76F0D3CDD"]
+			id: "0D953A3B556D1D7C"
+			ignore_reward_blocking: true
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "2052A17FB673F57F"
+				item: { count: 1, id: "create:andesite_alloy_block" }
+				optional_task: true
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38288E3BA67BBD8B"]
+			dependency_requirement: "all_started"
+			id: "6011AB5EAACAE6D9"
+			tasks: [{
+				id: "19CE6257E3ED6FA6"
+				item: { count: 1, id: "tfmg:limesand" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15C68B021A47AE3C"]
+			icon: {
+				components: {
+					"ftbquests:icon": "createmetallurgy:fluid/brass/still"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0B2CEAD42BC426E1"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "createmetallurgy:fluid/brass/still"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "130A431BE0D533CC"
+					optional_task: true
+					type: "custom"
+				}
+				{
+					id: "4B199D7CEF49CDF7"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BFF3FFC61C780A2"]
+			dependency_requirement: "all_started"
+			id: "38288E3BA67BBD8B"
+			tasks: [{
+				id: "03444A4CDE2E20A3"
+				item: { count: 1, id: "create:limestone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38288E3BA67BBD8B"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "create:copper_diving_helmet"
+			}
+			id: "2A711494B0415E11"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					consume_items: false
+					id: "4A9A741BBD4C678B"
+					item: { count: 1, id: "create:copper_diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "097884358A2971A5"
+					item: { count: 1, id: "create:copper_diving_boots" }
+					type: "item"
+				}
+				{
+					id: "1CCAAE8C664D8815"
+					item: { components: { "create:banktank_air": 900 }, count: 1, id: "create:copper_backtank" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A711494B0415E11"]
+			icon: {
+				id: "create_submarine:oxygene_diffuser"
+			}
+			id: "278A1862BB5A26AE"
+			optional: true
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/mob_effect/water_breathing.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "038EA54D57F32283"
+					optional_task: true
+					type: "custom"
+				}
+				{
+					id: "52B872D6541AB47D"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E69E9D46E6932FC"]
+			icon: {
+				id: "mekanism:ingot_steel"
+			}
+			id: "62C49F78F4AD22E9"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "18F410EC203924E1"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+				{
+					id: "0CECA08CC14C68AD"
+					item: { count: 1, id: "createmetallurgy:casting_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AFCC8535EBEBB56"
+					item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B2CEAD42BC426E1"]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "78BF2FD6473CDD8B"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "62DAA0189F7DF5BF"
+					item: { count: 1, id: "createmetallurgy:casting_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13A25A079894E395"
+					item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FA12D7B8DAD2763"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26D173B5484CD84E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "createmetallurgy:fluid/copper/still"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "15C68B021A47AE3C"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "createmetallurgy:fluid/zinc/still"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "74C460ED60AA8982"
+					optional_task: true
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "createmetallurgy:fluid/copper/still"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "333F0F1A50428846"
+					optional_task: true
+					type: "custom"
+				}
+				{
+					id: "2E2E8FB0BC8F78E0"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62C49F78F4AD22E9"]
+			id: "6D3571B3246AD289"
+			tasks: [{
+				id: "79F2DA409CE4F81F"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17283B1C7DBFD636"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "createmetallurgy:casting_table"
+			}
+			id: "7304D8112F6CFE38"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "3EC687D64353064A"
+					item: { count: 1, id: "createmetallurgy:casting_basin" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65290FD2AB316D7A"
+					item: { count: 1, id: "createmetallurgy:casting_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "57D0911F0195862E"
+					item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CF224EB126B386B"
+					item: { count: 1, id: "createmetallurgy:graphite_plate_mold" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A4AF735B97EEA6A"
+					item: { count: 1, id: "createmetallurgy:graphite_rod_mold" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21B67FAE8331AEAA"
+					item: { count: 1, id: "createmetallurgy:graphite_blank_mold" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10A442D78F24F549"
+					item: { count: 1, id: "createmetallurgy:graphite" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13D8C01A964558D1"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F7D9858F9D3DFA5"]
+			dependency_requirement: "all_started"
+			id: "6B0F6F52F153D08E"
+			tasks: [{
+				id: "2012F7A740BDA018"
+				item: { count: 1, id: "tfmg:cast_iron_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78BF2FD6473CDD8B"]
+			id: "5DF1793ECE79EA6F"
+			tasks: [{
+				id: "344E84B11DF557CF"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78BF2FD6473CDD8B"]
+			id: "1AB08D58AA0AB230"
+			tasks: [{
+				id: "33772299055CDA51"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62C49F78F4AD22E9"]
+			id: "7F2544D048A4B05B"
+			tasks: [{
+				id: "36B72D619D0C1E97"
+				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"78BF2FD6473CDD8B"
+				"62C49F78F4AD22E9"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "quark:textures/emote/wave.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5AA2D26086731077"
+			rewards: [{
+				id: "459602C99172D242"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "04732EA212E72DE8"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E7784B76F0D3CDD"]
+			icon: {
+				id: "create:filter"
+			}
+			id: "37670B5CD2E5CC6D"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "2350491AA33392E8"
+					item: { count: 1, id: "create:filter" }
+					type: "item"
+				}
+				{
+					id: "1B9E8DCB62236702"
+					item: { count: 1, id: "create:smart_fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+	]
+}

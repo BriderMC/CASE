@@ -1,0 +1,12 @@
+name = "Grassy Grass v1"
+filename = "\u00a72Grassy\u00a70_\u00a72Grass\u00a70_\u00a78[v1]\u00a70.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "2d9ef076a6b4728f72657882c80954a51ed26c8e"
+
+[update.curseforge]
+project-id = 1383776
+file-id = 7216337

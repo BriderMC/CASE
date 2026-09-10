@@ -1,0 +1,37 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:stone_tool_materials",
+    "replacement": "#c:ingots/copper",
+    "id": "minecraft:stone_pickaxe",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stone_tool_materials",
+    "replacement": "#c:ingots/copper",
+    "id": "minecraft:stone_axe",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stone_tool_materials",
+    "replacement": "#c:ingots/copper",
+    "id": "minecraft:stone_sword",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stone_tool_materials",
+    "replacement": "#c:ingots/copper",
+    "id": "minecraft:stone_shovel",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stone_tool_materials",
+    "replacement": "#c:ingots/copper",
+    "id": "minecraft:stone_hoe",
+    "type": "minecraft:crafting_shaped"
+  }
+]

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wip__coming_soon"
+	group: "63BB9E9161B6EABD"
+	id: "45D9AB2590208273"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		id: "5851B9C6C128DFB1"
+		tasks: [{
+			id: "4CEF418636968787"
+			item: { count: 1, id: "case:research_primitive" }
+			type: "item"
+		}]
+		x: 1.5d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:large_pumpjack_hammer_head",
+  "properties": {
+    "sable:mass": 1.75,
+    "sable:volume": 0.3
+  }
+}

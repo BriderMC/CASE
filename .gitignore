@@ -1,0 +1,6 @@
+dist/
+*.jar
+*.class
+*.bak
+*.log
+__pycache__/

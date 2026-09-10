@@ -1,0 +1,12 @@
+name = "Achievements Optimizer 2.1.0"
+filename = "AchievementOptimizer-neoforge-1.21.1-2.1.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "691c4686c52c8740cba6beff392cbc3fbface5b0"
+
+[update.curseforge]
+project-id = 912788
+file-id = 6897792

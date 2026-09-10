@@ -1,0 +1,12 @@
+name = "v1.8.0+beta4 ~ Neoforge 21.1"
+filename = "lithostitched-1.8.0+beta4-neoforge-21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "0edda78ec8500143cca898881c476b2b04dac75a"
+
+[update.curseforge]
+project-id = 936015
+file-id = 8660310

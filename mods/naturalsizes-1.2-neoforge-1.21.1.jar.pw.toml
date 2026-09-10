@@ -1,0 +1,12 @@
+name = "Natural Sizes 1.2 - 1.21.1 NeoForge"
+filename = "naturalsizes-1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "f4ba563db2120ced1d98dc31d3383d0a31614b3c"
+
+[update.curseforge]
+project-id = 1516625
+file-id = 8596871

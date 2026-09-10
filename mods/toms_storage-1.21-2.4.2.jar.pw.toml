@@ -1,0 +1,12 @@
+name = "[NeoForge] Tom's Storage 1.21-2.4.2"
+filename = "toms_storage-1.21-2.4.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "592af3bc4768c804c4929af16961ca2a1a916942"
+
+[update.curseforge]
+project-id = 378609
+file-id = 8769956

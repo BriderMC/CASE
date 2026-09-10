@@ -1,0 +1,8 @@
+{
+  "selector": "#createdeco:cage_lamps",
+  "priority": 1200,  
+  "properties": {
+    "sable:mass": 0.2,
+    "sable:volume": 1.0
+  }
+}

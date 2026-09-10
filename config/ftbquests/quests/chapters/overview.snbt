@@ -1,0 +1,45 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overview"
+	group: "63BB9E9161B6EABD"
+	id: "6C2888213F45CD19"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "555356B5788D1F45"
+			tasks: [{
+				id: "7A2AD2A0AEE345C9"
+				item: { components: { "modular_machinery_reborn:machine": "case:basic_research_lab" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "38D84CCB17801F5E"
+			tasks: [{
+				id: "3F4CE4292951B688"
+				item: { count: 1, id: "modular_machinery_reborn:blueprint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "5B252148ED70BAA3"
+			tasks: [{
+				id: "3FA09963F5DFE51F"
+				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+}

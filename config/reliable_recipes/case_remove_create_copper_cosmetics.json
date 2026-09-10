@@ -1,0 +1,8 @@
+[
+  {
+    "action": "remove_recipe",
+    "filter": {
+      "id": "/^create:deploying\\/.*copper.*(?:adding_wax|removing_wax|deoxidising)$/"
+    }
+  }
+]

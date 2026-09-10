@@ -1,0 +1,20 @@
+{
+  "fluid": "tfmg:lpg",
+  "sound_pitch": 1.0,
+  "normal": {
+    "speed": 70.0,
+    "strength": 2990.0,
+    "burn_rate": 0.05
+  },
+  "modular": {
+    "speed": 70.0,
+    "strength": 4485.0,
+    "burn_rate": 0.05
+  },
+  "huge": {
+    "speed": 164.0,
+    "strength": 8970.0,
+    "burn_rate": 0.05
+  },
+  "burner_multiplier": 1.1
+}

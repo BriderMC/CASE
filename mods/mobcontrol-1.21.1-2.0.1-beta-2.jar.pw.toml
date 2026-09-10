@@ -1,0 +1,12 @@
+name = "Mob Control v2.0.1-beta-2"
+filename = "mobcontrol-1.21.1-2.0.1-beta-2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "052620d8f4f21f7eabe362e2ab43c825c03631a6"
+
+[update.curseforge]
+project-id = 1261370
+file-id = 8454217

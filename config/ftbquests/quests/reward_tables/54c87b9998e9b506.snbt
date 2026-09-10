@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "minecraft:carrot"
+	}
+	id: "54C87B9998E9B506"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "6FE74BC957A1BD28", item: { count: 1, id: "minecraft:baked_potato" } }
+		{ id: "0E401DC4764ECC21", item: { count: 1, id: "minecraft:carrot" } }
+		{ id: "62E5D1C40958CA6D", item: { count: 1, id: "minecraft:bread" } }
+		{ id: "22826FE21BE77BFC", item: { count: 1, id: "minecraft:cooked_salmon" } }
+		{ id: "5C3AF4E6290C6C24", item: { count: 1, id: "minecraft:cooked_chicken" } }
+		{ id: "3970495044963605", item: { count: 1, id: "minecraft:apple" } }
+	]
+}

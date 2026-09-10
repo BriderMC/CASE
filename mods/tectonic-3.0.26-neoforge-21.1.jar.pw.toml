@@ -1,0 +1,12 @@
+name = "v3.0.26 ~ Neoforge 21.1"
+filename = "tectonic-3.0.26-neoforge-21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "3114da043f1b54fe32b2801266a27a8f477d7325"
+
+[update.curseforge]
+project-id = 686836
+file-id = 8360847

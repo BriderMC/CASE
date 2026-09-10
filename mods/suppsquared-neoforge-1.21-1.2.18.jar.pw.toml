@@ -1,0 +1,12 @@
+name = "suppsquared-1.21-1.2.18-neoforge"
+filename = "suppsquared-neoforge-1.21-1.2.18.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "0b6845d2afd22f91275a69ad270a0f0ecbfaebe3"
+
+[update.curseforge]
+project-id = 838411
+file-id = 8268988

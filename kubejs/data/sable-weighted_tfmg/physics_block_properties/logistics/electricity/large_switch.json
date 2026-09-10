@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:large_switch",
+  "properties": {
+    "sable:mass": 2.5,
+    "sable:volume": 0.8
+  }
+}

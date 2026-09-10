@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:polarizer",
+  "properties": {
+    "sable:mass": 0.8,
+    "sable:volume": 0.8
+  }
+}

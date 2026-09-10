@@ -1,0 +1,12 @@
+name = "Create: Bits 'n' Dyes 1.1.2 NeoForge 1.21.1"
+filename = "bits_n_dyes-1.1.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "a4a8ee5e24165bc31fcd24848320728e8742f550"
+
+[update.curseforge]
+project-id = 1646822
+file-id = 8661289

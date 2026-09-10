@@ -1,0 +1,12 @@
+name = "[NEOFORGE] accelerated-decay 21.0.0"
+filename = "accelerated-decay-neoforge-21.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "b023fe4daf1379f0f4233bea02ba112f3854db3e"
+
+[update.curseforge]
+project-id = 699872
+file-id = 5433036

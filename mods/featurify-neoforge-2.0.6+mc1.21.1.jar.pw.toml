@@ -1,0 +1,12 @@
+name = "Featurify 2.0.6"
+filename = "featurify-neoforge-2.0.6+mc1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "c0bea9ad8a62ede749371bc4d2c8ce808a52c108"
+
+[update.curseforge]
+project-id = 1569688
+file-id = 8697614

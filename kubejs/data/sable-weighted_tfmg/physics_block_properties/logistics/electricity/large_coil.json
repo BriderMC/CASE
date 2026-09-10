@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:large_coil",
+  "properties": {
+    "sable:mass": 1.2,
+    "sable:volume": 0.4
+  }
+}

@@ -1,0 +1,12 @@
+name = "v1.0.9"
+filename = "moreculling-neoforge-1.21.1-1.0.9.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "ae55b17d7257dbc52616899198545dc219c132af"
+
+[update.curseforge]
+project-id = 630104
+file-id = 8563409

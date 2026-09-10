@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:light_gray_concrete",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

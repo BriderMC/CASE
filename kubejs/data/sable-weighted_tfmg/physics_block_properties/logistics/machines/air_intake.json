@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:air_intake",
+  "properties": {
+    "sable:mass": 1.2,
+    "sable:volume": 0.3
+  }
+}

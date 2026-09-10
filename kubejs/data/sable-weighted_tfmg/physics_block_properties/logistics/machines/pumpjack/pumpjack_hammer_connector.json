@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:pumpjack_hammer_connector",
+  "properties": {
+    "sable:mass": 1.25,
+    "sable:volume": 0.6
+  }
+}

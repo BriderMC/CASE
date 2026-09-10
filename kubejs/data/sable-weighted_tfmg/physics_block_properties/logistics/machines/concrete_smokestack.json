@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:concrete_smokestack",
+  "properties": {
+    "sable:mass": 1.2,
+    "sable:volume": 0.75
+  }
+}

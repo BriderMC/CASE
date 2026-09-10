@@ -1,0 +1,8 @@
+{
+  "fluid": "tfmg:naphtha",
+  "sound_pitch": 1.0,
+  "normal": { "speed": 94.0, "strength": 4014.0, "burn_rate": 0.05 },
+  "modular": { "speed": 94.0, "strength": 6021.0, "burn_rate": 0.05 },
+  "huge": { "speed": 220.0, "strength": 12042.0, "burn_rate": 0.05 },
+  "burner_multiplier": 1.1
+}

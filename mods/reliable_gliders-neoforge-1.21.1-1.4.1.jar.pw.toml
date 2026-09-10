@@ -1,0 +1,12 @@
+name = "Reliable Gliders Neoforge 1.21.1 - 1.4.1"
+filename = "reliable_gliders-neoforge-1.21.1-1.4.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "899219e59e9ec861d200ceef43e77c5ab8d71ea7"
+
+[update.curseforge]
+project-id = 1528600
+file-id = 8648583

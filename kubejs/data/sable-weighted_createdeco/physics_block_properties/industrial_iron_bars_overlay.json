@@ -1,0 +1,8 @@
+{
+  "selector": "createdeco:industrial_iron_bars_overlay",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.23,
+    "sable:volume": 0.05
+  }
+}

@@ -1,0 +1,12 @@
+name = "Bulk Cell For Fluid"
+filename = "bulkcellforfluid-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "6f0a280944a37ff1c779edeb8946403fd6ed52bd"
+
+[update.curseforge]
+project-id = 1643948
+file-id = 8599574

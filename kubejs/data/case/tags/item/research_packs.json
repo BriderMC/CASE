@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "case:research_primitive",
+    "case:research_basic_automation",
+    "case:research_basic_chemical",
+    "case:research_basic_logistics",
+    "case:research_basic_metallurgy",
+    "case:research_basic_space"
+  ]
+}

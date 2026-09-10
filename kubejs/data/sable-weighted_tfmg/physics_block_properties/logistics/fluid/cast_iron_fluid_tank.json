@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:cast_iron_fluid_tank",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

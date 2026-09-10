@@ -1,0 +1,12 @@
+name = "Reliable Recipes Neoforge 1.21.1 - 3.1.5"
+filename = "reliable_recipes-neoforge-1.21.1-3.1.5.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "923ac76239144af9b0a649c52cf5da27057aceb8"
+
+[update.curseforge]
+project-id = 1414959
+file-id = 8682173

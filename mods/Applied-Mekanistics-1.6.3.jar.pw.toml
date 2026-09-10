@@ -1,0 +1,12 @@
+name = "1.6.3"
+filename = "Applied-Mekanistics-1.6.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "bec4a47269ec23bca2329742e13409bfde69c5c3"
+
+[update.curseforge]
+project-id = 574300
+file-id = 7096962

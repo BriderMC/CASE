@@ -1,0 +1,12 @@
+name = "1.21.1-v1.5.1"
+filename = "snowundertrees-1.21.1-1.5.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "5b6a85a2a833c6c6a5337e3fb720dba1a4d073aa"
+
+[update.curseforge]
+project-id = 353942
+file-id = 8249253

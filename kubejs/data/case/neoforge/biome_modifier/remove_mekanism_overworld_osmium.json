@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "mekanism:ore_osmium_upper",
+    "mekanism:ore_osmium_middle",
+    "mekanism:ore_osmium_small",
+    "mekanism:ore_osmium_upper_retrogen",
+    "mekanism:ore_osmium_middle_retrogen",
+    "mekanism:ore_osmium_small_retrogen"
+  ],
+  "steps": ["underground_ores"]
+}

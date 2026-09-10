@@ -1,0 +1,12 @@
+{
+  "selector": "createdeco:corner_scarlet_brick_stairs",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 0.75
+  }
+}
+
+
+
+

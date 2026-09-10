@@ -1,0 +1,12 @@
+name = "Structure Layout Optimizer v1.0.12 (neoforge 1.21.1)"
+filename = "structure_layout_optimizer-neoforge-1.0.12.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "052c31cb9881c04c17d949345539aa8684f474bf"
+
+[update.curseforge]
+project-id = 1087831
+file-id = 7439136

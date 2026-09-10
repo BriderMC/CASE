@@ -1,0 +1,9 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#c:barrels/wooden",
+    "replacement": "minecraft:glass",
+    "id": "create_connected:crafting/kinetics/fluid_vessel",
+    "type": "minecraft:crafting_shaped"
+  }
+]

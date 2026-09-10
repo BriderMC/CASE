@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:rusted_blast_furnace_reinforcement_wall",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

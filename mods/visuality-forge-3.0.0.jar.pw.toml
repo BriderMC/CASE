@@ -1,0 +1,12 @@
+name = "[NeoForge]Visuality: Reforged 3.0.0 for 1.21.1"
+filename = "visuality-forge-3.0.0.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "9786f023733a302b582b7349336e1ab47e93823e"
+
+[update.curseforge]
+project-id = 704256
+file-id = 8559477

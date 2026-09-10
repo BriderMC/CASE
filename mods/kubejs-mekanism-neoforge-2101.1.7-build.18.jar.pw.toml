@@ -1,0 +1,12 @@
+name = "KubeJS Mekanism NeoForge 2101.1.7-build.18"
+filename = "kubejs-mekanism-neoforge-2101.1.7-build.18.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "4b3bcc7989251d56b9d855068f3a46ff8b172dde"
+
+[update.curseforge]
+project-id = 418651
+file-id = 7213666

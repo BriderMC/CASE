@@ -1,0 +1,26 @@
+[
+  {
+    "action": "remove",
+    "items": [
+      "moremekanismprocessing:aluminum_ingot",
+      "moremekanismprocessing:aluminum_nugget",
+      "moremekanismprocessing:lithium_ingot",
+      "moremekanismprocessing:lithium_nugget",
+      "moremekanismprocessing:nickel_ingot",
+      "moremekanismprocessing:nickel_nugget",
+      "moremekanismprocessing:dust_nickel",
+      "moremekanismprocessing:platinum_ingot",
+      "moremekanismprocessing:platinum_nugget",
+      "moremekanismprocessing:dust_platinum",
+      "moremekanismprocessing:clump_platinum",
+      "moremekanismprocessing:titanium_ingot",
+      "moremekanismprocessing:titanium_nugget",
+      "moremekanismprocessing:tungsten_ingot",
+      "moremekanismprocessing:tungsten_nugget",
+      "moremekanismprocessing:dust_tungsten",
+      "moremekanismprocessing:zinc_ingot",
+      "moremekanismprocessing:zinc_nugget",
+      "moremekanismprocessing:dust_zinc"
+    ]
+  }
+]

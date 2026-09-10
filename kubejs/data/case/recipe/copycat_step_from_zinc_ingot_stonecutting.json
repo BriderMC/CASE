@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "tag": "c:ingots/zinc" },
+  "result": { "count": 1, "id": "create:copycat_step" }
+}

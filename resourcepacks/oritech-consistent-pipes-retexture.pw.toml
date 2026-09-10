@@ -1,0 +1,12 @@
+name = "Oritech: Consistent Pipes Retexture"
+filename = "Oritech Consistent Pipes Retexture.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "ae9f6ea993b66437746a6425bb19ce12de86216a"
+
+[update.curseforge]
+project-id = 1380936
+file-id = 7198891

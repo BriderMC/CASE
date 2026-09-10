@@ -1,0 +1,12 @@
+name = "tfmg diesel generators"
+filename = "tfmg Diesel Generators.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "bdb5b93d0a9a53fa39ee87334144e0026d15a691"
+
+[update.curseforge]
+project-id = 1347537
+file-id = 6999466

@@ -1,0 +1,12 @@
+name = "1.21.1-0.5.15.409"
+filename = "sophisticateditemactions-1.21.1-0.5.15.409.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "b7b8c8493dcbbd85d1f70fd1475422d27ac790f2"
+
+[update.curseforge]
+project-id = 1419142
+file-id = 8705148

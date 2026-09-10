@@ -1,0 +1,12 @@
+name = "Oritech Clear Glass 1.0.0"
+filename = "Oritech Clear Glass.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "6923b8a1064504f2adf4f0becb5ae268a4806e3e"
+
+[update.curseforge]
+project-id = 1291848
+file-id = 6682304

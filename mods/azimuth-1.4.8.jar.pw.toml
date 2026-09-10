@@ -1,0 +1,12 @@
+name = "Azimuth 1.4.8 NeoForge 1.21.1"
+filename = "azimuth-1.4.8.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "329b649c23a84dcbcbc2172df38a5d87afe94cf1"
+
+[update.curseforge]
+project-id = 1466331
+file-id = 8780182

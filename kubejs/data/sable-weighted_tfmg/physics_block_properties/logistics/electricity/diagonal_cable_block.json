@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:diagonal_cable_block",
+  "properties": {
+    "sable:mass": 0.35,
+    "sable:volume": 1.0
+  }
+}

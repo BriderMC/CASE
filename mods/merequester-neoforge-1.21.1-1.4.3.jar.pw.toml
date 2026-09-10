@@ -1,0 +1,12 @@
+name = "MERequester-NeoForge-1.21.1-1.4.3"
+filename = "merequester-neoforge-1.21.1-1.4.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "b0a801e9b7af930da5f58176156d58c26f6232b1"
+
+[update.curseforge]
+project-id = 688367
+file-id = 8285803

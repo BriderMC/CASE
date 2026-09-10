@@ -1,0 +1,12 @@
+name = "Torches Reimagined v1.8"
+filename = "\u00a7eTorches\u00a78-\u00a7eReimagined\u00a70_\u00a78[v1.8]\u00a70.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "06032557b84a41a28e3473f483b34cb6737002b0"
+
+[update.curseforge]
+project-id = 531730
+file-id = 8048795

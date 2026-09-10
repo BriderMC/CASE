@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:concrete_encased_industrial_pipe",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

@@ -1,0 +1,12 @@
+name = "FTB Quests Optimizer 3.2.0-1.21.1"
+filename = "FTBQuestsOptimizer-neoforge-3.2.0-1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "28e4926c62f9f010aea43a091f7fc113200175be"
+
+[update.curseforge]
+project-id = 912469
+file-id = 7576461

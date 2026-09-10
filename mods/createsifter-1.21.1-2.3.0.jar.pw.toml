@@ -1,0 +1,12 @@
+name = "Create: Sifter 2.3.0 for mc1.21.1"
+filename = "createsifter-1.21.1-2.3.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "4cd4866a74e7da5b5d4a84ec5757ceeb17cf80f1"
+
+[update.curseforge]
+project-id = 661938
+file-id = 8418559

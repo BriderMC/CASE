@@ -1,0 +1,9 @@
+{
+  "selector": "createdeco:cracked_dean_bricks",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}
+

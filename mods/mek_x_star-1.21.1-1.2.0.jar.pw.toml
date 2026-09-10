@@ -1,0 +1,12 @@
+name = "Mekanism x Create: Northstar 1.21.1-1.2.0"
+filename = "mek_x_star-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "962da70a6bfbc7b51af04ff7af349349fd817ad8"
+
+[update.curseforge]
+project-id = 1104223
+file-id = 8420940

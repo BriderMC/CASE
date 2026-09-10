@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "oritech:exo_jetpack",
+    "oritech:jetpack",
+    "oritech:jetpack_elytra",
+    "oritech:jetpack_exo_elytra",
+    "mekanism:jetpack",
+    "mekanism:jetpack_armored"
+  ]
+}

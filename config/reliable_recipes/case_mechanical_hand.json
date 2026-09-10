@@ -1,0 +1,9 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#c:plates/brass",
+    "replacement": "#c:plates/iron",
+    "id": "create:crafting/kinetics/brass_hand",
+    "type": "minecraft:crafting_shaped"
+  }
+]

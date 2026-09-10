@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:gas_lamp",
+  "properties": {
+    "sable:mass": 0.65,
+    "sable:volume": 1.2
+  }
+}

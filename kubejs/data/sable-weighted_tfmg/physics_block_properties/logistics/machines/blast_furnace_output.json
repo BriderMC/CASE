@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:blast_furnace_output",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

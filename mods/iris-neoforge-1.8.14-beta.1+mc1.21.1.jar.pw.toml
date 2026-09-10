@@ -1,0 +1,12 @@
+name = "Iris 1.8.14 Beta 1 for NeoForge 1.21.1"
+filename = "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
+
+[update.curseforge]
+project-id = 455508
+file-id = 8242804

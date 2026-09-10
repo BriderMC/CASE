@@ -1,0 +1,14 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": ["tfmg:cast_iron_vat", "tfmg:steel_vat", "tfmg:firebrick_lined_vat"],
+  "ingredients": [
+    { "type": "fluid_tag", "amount": 1000, "fluid_tag": "c:brine" }
+  ],
+  "machines": ["tfmg:electrode"],
+  "min_size": 1,
+  "results": [
+    { "amount": 500, "id": "northstar:chlorine" },
+    { "amount": 500, "id": "northstar:sodium" },
+    { "amount": 500, "id": "northstar:hydrogen" }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "action": "replace_input",
+    "target": "farmersdelight:rope",
+    "replacement": "#c:ropes",
+    "id": [
+      "farmersdelight:rope_fence",
+      "farmersdelight:rope_fence_gate",
+      "farmersdelight:safety_net"
+    ],
+    "type": "minecraft:crafting_shaped"
+  }
+]

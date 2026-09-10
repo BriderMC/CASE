@@ -1,0 +1,12 @@
+name = "[1.21.1 NeoForge] 0.6.0"
+filename = "pandalib-neoforge-1.21.1-0.6.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "af13ba0a3e417e4218a57c835d184ad5c331c1c2"
+
+[update.curseforge]
+project-id = 975460
+file-id = 7858822

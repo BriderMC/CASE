@@ -1,0 +1,12 @@
+name = "Just Enough Mekanism Multiblocks"
+filename = "JustEnoughMekanismMultiblocks-1.21.1-7.18.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "e1ea6a2d1841cbc2bd6894d0c1fb60bf50d1ab84"
+
+[update.curseforge]
+project-id = 898746
+file-id = 8714994

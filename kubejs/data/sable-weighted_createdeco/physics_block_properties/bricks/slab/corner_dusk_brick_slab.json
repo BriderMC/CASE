@@ -1,0 +1,11 @@
+{
+  "selector": "createdeco:corner_dusk_brick_slab",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 0.5
+  }
+}
+
+
+

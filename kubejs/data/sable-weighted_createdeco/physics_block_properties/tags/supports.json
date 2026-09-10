@@ -1,0 +1,8 @@
+{
+  "selector": "#createdeco:supports",
+  "priority": 1200,  
+  "properties": {
+    "sable:mass": 0.75,
+    "sable:volume": 0.4
+  }
+}

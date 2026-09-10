@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:firebox",
+  "properties": {
+    "sable:mass": 1.35,
+    "sable:volume": 0.7
+  }
+}

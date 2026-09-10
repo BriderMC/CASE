@@ -1,0 +1,9 @@
+{
+  "selector": "createdeco:industrial_iron_window_pane",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 0.08,
+    "sable:fragile": true
+  }
+}

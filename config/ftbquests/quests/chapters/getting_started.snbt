@@ -1,0 +1,201 @@
+{
+	autofocus_id: "76799A94679CF3DB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "quark:textures/emote/cheer.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "78C770DE81290E56"
+	images: [{
+		click_action: "none:"
+		height: 2.0d
+		id: "070FB2099A7FF5C7"
+		image: "minecraft:textures/gui/title/minecraft.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "northstar:textures/planet/solar_system/saturn_sky.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "76799A94679CF3DB"
+			quest_enhance_quest_background: "minecraft:textures/gui/title/minceraft.png"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2DD61F4A4B8B558D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76799A94679CF3DB"]
+			icon: {
+				components: {
+					"ftbquests:icon": "olympus:textures/gui/sprites/icons/checkmark.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4411F2F26402B262"
+			rewards: [{
+				id: "413CA395D6483038"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6BEA7A24E8E6AFCC"
+					type: "checkmark"
+				}
+				{
+					id: "364CBB2C18FA1FDA"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1E927A5F332F17F3"
+					item: { count: 1, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					id: "15A03FF492508FCC"
+					item: { count: 1, id: "minecraft:diamond_block" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76799A94679CF3DB"]
+			id: "756C89FAABDB6659"
+			tasks: [{
+				id: "3901D2879FB5D274"
+				item: { count: 1, id: "createdeco:decal_warning" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76799A94679CF3DB"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "574AF38E200B0A1E"
+			tasks: [{
+				id: "79AEC6303C658302"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4411F2F26402B262"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5BFEDC4F8BAF64B1"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "2C3F96121061B499"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4411F2F26402B262"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1BF8FA2DDAD6137B"
+			tasks: [{
+				id: "153B9E59808CA677"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4411F2F26402B262"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2E2E9A4AAEDB927A"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "786F234C1F13AFF2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2E2E9A4AAEDB927A"]
+			id: "3D83D851DF15F1CC"
+			invisible: true
+			quest_enhance_quest_background: "dynamic_fps:textures/battery/toast/background.png"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "11DB763489392138"
+				item: { count: 1, id: "case:research_primitive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D83D851DF15F1CC"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "38C96BAEFA3C3B79"
+			shape: "diamond"
+			tasks: [{
+				id: "2E0F1B8C84FC77B2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

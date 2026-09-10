@@ -1,0 +1,12 @@
+name = "Refined Storage - ReCreated v0.7"
+filename = "Refined Storage - ReCreated v0.7.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "5e5added2274a4a45e0c15c868eefad665fe6e52"
+
+[update.curseforge]
+project-id = 904229
+file-id = 6799673

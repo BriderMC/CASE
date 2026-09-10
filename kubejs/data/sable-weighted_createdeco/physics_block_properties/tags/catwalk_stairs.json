@@ -1,0 +1,8 @@
+{
+  "selector": "#createdeco:catwalk_stairs",
+  "priority": 1200,  
+  "properties": {
+    "sable:mass": 0.8,
+    "sable:volume": 0.5
+  }
+}

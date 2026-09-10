@@ -1,0 +1,12 @@
+name = "MekaGenJei (Mekanism Generator addon)"
+filename = "mekagenjei-1.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "922aff2f71b69d76163728dfa5bf6c664268ff9d"
+
+[update.curseforge]
+project-id = 1347827
+file-id = 7224975

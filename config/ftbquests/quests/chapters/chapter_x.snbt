@@ -1,0 +1,73 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_x"
+	group: "5603918543C67518"
+	icon: {
+		id: "createoreexcavation:drilling_machine"
+	}
+	id: "53B9A341D0907727"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "42E7DABCDC47858D"
+			tasks: [{
+				id: "3EAE4E247BC84B16"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "5A588DE12DEA25DB"
+			tasks: [{
+				id: "4B80FDC57BFD6AE4"
+				item: { count: 1, id: "createoreexcavation:extractor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "69459B83E561040A"
+			tasks: [{
+				id: "3766E524CAC2794E"
+				item: { count: 1, id: "createoreexcavation:sample_drill" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "4A255A9AAB517B40"
+			tasks: [{
+				id: "1D769F9DE2158890"
+				item: { count: 1, id: "createoreexcavation:drill" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/minimap_info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2DDCE724D0001CDD"
+			tasks: [{
+				id: "3C722059DFEA4EB0"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+name = "[NeoForge] Create Contraption Terminals 1.21-1.4.0"
+filename = "createcontraptionterminals-1.21-1.4.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "ede963781ca5bf49c5117031087b8085043c7ab3"
+
+[update.curseforge]
+project-id = 1059879
+file-id = 8631983

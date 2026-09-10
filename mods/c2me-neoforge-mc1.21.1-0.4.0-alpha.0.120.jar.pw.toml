@@ -1,0 +1,12 @@
+name = "0.4.0-alpha.0.120 backport devbuild for 1.21.1"
+filename = "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "f06c116c1b447a2cdb3162d6c9ec54c9a422b48d"
+
+[update.curseforge]
+project-id = 533097
+file-id = 8646869

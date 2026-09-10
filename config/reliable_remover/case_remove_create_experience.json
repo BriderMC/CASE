@@ -1,0 +1,9 @@
+[
+  {
+    "action": "remove",
+    "items": [
+      "create:experience_nugget",
+      "create:experience_block"
+    ]
+  }
+]

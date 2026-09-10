@@ -1,0 +1,12 @@
+name = "MidnightLib 1.9.3 - Neoforge 1.21.1"
+filename = "midnightlib-neoforge-1.9.3+1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "e0c9a1ffc6a53435029a23d9c110c44620595469"
+
+[update.curseforge]
+project-id = 488090
+file-id = 8028802

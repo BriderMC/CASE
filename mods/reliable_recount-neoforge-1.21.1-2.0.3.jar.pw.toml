@@ -1,0 +1,12 @@
+name = "Reliable Recount Neoforge 1.21.1 - 2.0.3"
+filename = "reliable_recount-neoforge-1.21.1-2.0.3.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "b3535e65a2906bd5ff1709765749a641b5f12e08"
+
+[update.curseforge]
+project-id = 1416624
+file-id = 8044991

@@ -1,0 +1,12 @@
+name = "Neruina Neoforge 3.3.3 for 1.21.1"
+filename = "neruina-3.3.3+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "fcb2f6b8121bed42dd8ffd08ccefb61aa3ae76c9"
+
+[update.curseforge]
+project-id = 851046
+file-id = 8451084

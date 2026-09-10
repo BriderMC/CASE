@@ -1,0 +1,413 @@
+{
+	autofocus_id: "03DEE2D7F3391C58"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "logistics"
+	group: "3137B88360487912"
+	icon: {
+		id: "belts:belt"
+	}
+	id: "46837EAB82C3FD0C"
+	images: [{
+		click_action: "none:quest_enhance:text_v3:3.0:17:minecraft:defaultLogistics"
+		color: 43520
+		height: 0.4583333333333333d
+		id: "34268D416BFC595D"
+		image: ""
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "belts:belt"
+			}
+			icon_scale: 1.2d
+			id: "03DEE2D7F3391C58"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "00969E84688720A3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03DEE2D7F3391C58"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "cmverticaladditions:vertical_belt_connector"
+			}
+			id: "6B95FD8F240FC38D"
+			tasks: [
+				{
+					id: "06CD2E148A3A45F1"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					id: "3EE90DC24D6D56B0"
+					item: { count: 1, id: "cmverticaladditions:vertical_belt_connector" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E89FDAA4AC9DEBB"
+					item: { count: 1, id: "createtransmission:transmission_chain" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "557A686126466156"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "5BCBAD48EC24055D"
+			tasks: [
+				{
+					id: "2053450CE529C1A1"
+					item: { count: 1, id: "belts:belt" }
+					type: "item"
+				}
+				{
+					id: "719D4B05102BEE08"
+					item: { count: 1, id: "belts:chute" }
+					type: "item"
+				}
+				{
+					id: "1452B16C4B5638D2"
+					item: { count: 1, id: "belts:conveyor_support" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "6DA08FCE64230EC2"
+			tasks: [
+				{
+					id: "6984555E30E161C0"
+					item: { count: 1, id: "create:andesite_funnel" }
+					type: "item"
+				}
+				{
+					id: "09092D101150AE9C"
+					item: { count: 1, id: "create:brass_funnel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "438841CF5A0D17EF"
+			tasks: [
+				{
+					id: "5DA91A226CF6F2C6"
+					item: { count: 1, id: "create:chute" }
+					type: "item"
+				}
+				{
+					id: "26DD6E0AF571CB07"
+					item: { count: 1, id: "create:smart_chute" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "5CA78467B075F710"
+			tasks: [{
+				id: "68739C737D96ADDA"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "05A7678FE16B3AC4"
+			tasks: [
+				{
+					id: "738DA652B8B1303A"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+				{
+					id: "1675C446CB1F2554"
+					item: { count: 1, id: "create:weighted_ejector" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "3B2149C368C5C87B"
+			tasks: [
+				{
+					id: "76DE20A7CA0F1507"
+					item: { count: 1, id: "create:andesite_tunnel" }
+					type: "item"
+				}
+				{
+					id: "159FF36F98E8A37E"
+					item: { count: 1, id: "create:brass_tunnel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5BCBAD48EC24055D"]
+			id: "0A571B2F1EBD30EB"
+			tasks: [
+				{
+					id: "183062628DBA8746"
+					item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+					type: "item"
+				}
+				{
+					id: "0F8695F9E7E98ECB"
+					item: { count: 1, id: "oritech:transparent_item_pipe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["03DEE2D7F3391C58"]
+			dependency_requirement: "all_started"
+			id: "55869D8548200415"
+			tasks: [
+				{
+					id: "1139E94340FCDEE6"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "6D374C834A2A2F2A"
+					item: { count: 1, id: "tfmg:steel_pipe" }
+					type: "item"
+				}
+				{
+					id: "489A254C35917F46"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "74C8E2A42621BBED"
+					item: { count: 1, id: "tfmg:steel_mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55869D8548200415"]
+			id: "744A726B50654117"
+			tasks: [
+				{
+					id: "56DDBFB6A6B81F19"
+					item: { count: 1, id: "oritech:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "65F241AE626FE81E"
+					item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03DEE2D7F3391C58"]
+			dependency_requirement: "all_started"
+			id: "7D9DD41C4D3D4DF9"
+			tasks: [
+				{
+					id: "2BA063DE54D7F726"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					id: "3502C0234105C092"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D9DD41C4D3D4DF9"]
+			id: "3D07A468F39CFE2A"
+			tasks: [{
+				id: "66A6F2DE1C711571"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D07A468F39CFE2A"]
+			id: "0CABBD13995D546F"
+			tasks: [{
+				id: "36D65C57AC5AD6F1"
+				item: { count: 1, id: "oritech:energy_pipe" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["298982D852C5E257"]
+			id: "75A15F17831BFB39"
+			tasks: [
+				{
+					id: "5039D87C0925AD8D"
+					item: { count: 1, id: "oritechthings:addon_block_cross_dimensional" }
+					type: "item"
+				}
+				{
+					id: "50DF64363DF52F4A"
+					item: { count: 1, id: "oritech:drone_port_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "003390BAECB82F42"
+			tasks: [
+				{
+					id: "623120DA8E125246"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:logistics_terminal" }
+					type: "item"
+				}
+				{
+					id: "1F9A23CEFC503619"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:airship_station" }
+					type: "item"
+				}
+				{
+					id: "461D3EB6BC97B5BD"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:train_station" }
+					type: "item"
+				}
+				{
+					id: "67D1424982061724"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:ship_transponder" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B95FD8F240FC38D"]
+			id: "298B0CEF6599016A"
+			tasks: [
+				{
+					id: "7A9A2223F2BE7891"
+					item: { count: 1, id: "create:package_frogport" }
+					type: "item"
+				}
+				{
+					id: "0065B601F64D6890"
+					item: { count: 1, id: "create:chain_conveyor" }
+					type: "item"
+				}
+				{
+					id: "07E73D615D581BA2"
+					item: { count: 1, id: "create:packager" }
+					type: "item"
+				}
+				{
+					id: "41D641FE828569DD"
+					item: { count: 1, id: "create:repackager" }
+					type: "item"
+				}
+				{
+					id: "0189D5204452ACA1"
+					item: { count: 1, id: "create:stock_link" }
+					type: "item"
+				}
+				{
+					id: "2B5E0098209A0869"
+					item: { count: 1, id: "create:stock_ticker" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "northstar:textures/gui/space_background.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "298982D852C5E257"
+			tasks: [{
+				id: "49628E378A5619FF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "415B77AB6E863834"
+			tasks: [
+				{
+					id: "197FD11D1651269B"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "32052144F665EEDB"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					id: "7C6206BFFF22AEAF"
+					item: { count: 1, id: "create:schedule" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+	]
+}

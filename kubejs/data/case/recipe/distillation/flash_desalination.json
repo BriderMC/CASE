@@ -1,0 +1,24 @@
+{
+  "type": "tfmg:distillation",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 150,
+      "id": "minecraft:water"
+    },
+    {
+      "amount": 800,
+      "id": "northstar:brine"
+    },
+    {
+      "amount": 50,
+      "id": "mekanism:steam"
+    }
+  ]
+}

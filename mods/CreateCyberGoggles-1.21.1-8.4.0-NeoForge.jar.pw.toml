@@ -1,0 +1,12 @@
+name = "[NeoForge] 8.4.0 for Create 1.21.1-6.0.10"
+filename = "CreateCyberGoggles-1.21.1-8.4.0-NeoForge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "f1a47ba7a3ce2307707e36e0d0346addb4b22e7c"
+
+[update.curseforge]
+project-id = 1233804
+file-id = 8779033

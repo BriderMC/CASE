@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:pumpjack_base",
+  "properties": {
+    "sable:mass": 0.65,
+    "sable:volume": 0.9
+  }
+}

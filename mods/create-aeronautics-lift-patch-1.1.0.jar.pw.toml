@@ -1,0 +1,12 @@
+name = "Create Aeronautics Lift Patch 1.1.0"
+filename = "create-aeronautics-lift-patch-1.1.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "1baa3312d1b29414dd41a77ed5c665bbbd63cf44"
+
+[update.curseforge]
+project-id = 1527553
+file-id = 8004030

@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "mekanism:ore_tin_small",
+    "mekanism:ore_tin_large",
+    "mekanism:ore_tin_small_retrogen",
+    "mekanism:ore_tin_large_retrogen"
+  ],
+  "steps": ["underground_ores"]
+}

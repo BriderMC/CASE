@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_deep_ocean",
+  "features": "case:deep_ocean_limestone",
+  "step": "underground_ores"
+}

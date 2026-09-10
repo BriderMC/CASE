@@ -1,0 +1,16 @@
+[
+  {
+    "action": "replace_input",
+    "target": "modular_machinery_reborn:modularium",
+    "replacement": "#c:plates/iron",
+    "id": "modular_machinery_reborn:casing_plain",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:storage_blocks/redstone",
+    "replacement": "#c:ingots/steel",
+    "id": "modular_machinery_reborn:casing_plain",
+    "type": "minecraft:crafting_shaped"
+  }
+]

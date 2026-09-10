@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:blast_furnace_reinforcement",
+  "properties": {
+    "sable:mass": 1.5,
+    "sable:volume": 0.4
+  }
+}

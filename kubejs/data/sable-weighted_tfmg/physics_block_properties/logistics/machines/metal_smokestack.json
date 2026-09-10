@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:metal_smokestack",
+  "properties": {
+    "sable:mass": 1.5,
+    "sable:volume": 0.5
+  }
+}

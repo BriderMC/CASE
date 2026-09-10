@@ -1,0 +1,12 @@
+name = "Cave Dust Rethinking 3.2.0+1.21.1-neoforge"
+filename = "cavedust-3.2.0+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "82a0b60937dfb08c994731dcb62d86734670e66c"
+
+[update.curseforge]
+project-id = 1617531
+file-id = 8469000

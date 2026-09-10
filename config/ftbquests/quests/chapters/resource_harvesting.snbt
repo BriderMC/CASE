@@ -1,0 +1,243 @@
+{
+	autofocus_id: "23A9162C3CB4C816"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_harvesting"
+	group: "3137B88360487912"
+	icon: {
+		id: "createoreexcavation:drilling_machine"
+	}
+	id: "1427EB5C4E878CE1"
+	images: [{
+		click_action: "none:quest_enhance:text_v3:3.0:17:minecraft:defaultResource Gathering"
+		color: 16733525
+		height: 0.4583333333333333d
+		id: "4938116F85C99F12"
+		image: ""
+		rotation: 0.0d
+		width: 4.0d
+		x: 1.0d
+		y: -0.5d
+	}]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "oritech:block/resource_node_iron"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "23A9162C3CB4C816"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "388E15F7CB98CC60"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23A9162C3CB4C816"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "createsifter:sifter"
+			}
+			id: "261884C14CA39BEB"
+			size: 1.5d
+			tasks: [{
+				id: "3F0F44EAD8223122"
+				item: { count: 1, id: "createsifter:sifter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["261884C14CA39BEB"]
+			dependency_requirement: "all_started"
+			id: "061953476B9C85B4"
+			tasks: [{
+				id: "0341AD4ABC329F57"
+				item: { count: 1, id: "createsifter:string_mesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["261884C14CA39BEB"]
+			id: "76C4D5035B701578"
+			tasks: [
+				{
+					id: "45319934AA24C9F9"
+					item: { count: 1, id: "minecraft:gravel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42DFA2330757A8BC"
+					item: { count: 1, id: "minecraft:deepslate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "632F7FF4002308E4"
+					item: { count: 1, id: "minecraft:diorite" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34227EBC5A006611"
+					item: { count: 1, id: "minecraft:andesite" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54B6B355A987AEDA"
+					item: { count: 1, id: "minecraft:granite" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "230FF581AA92D5EF"
+					item: { count: 1, id: "minecraft:sand" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79A636EF9DD67FE0"
+					item: { count: 1, id: "createsifter:dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58036A8635627141"
+					item: { count: 1, id: "createsifter:crushed_basalt" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A783C5A9A2C5F66"
+					item: { count: 1, id: "minecraft:calcite" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "563291D75B9CC2C5"
+					item: { count: 1, id: "minecraft:tuff" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C32773E917AD613"
+					item: { count: 1, id: "minecraft:blackstone" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["061953476B9C85B4"]
+			id: "27EA211485683A20"
+			tasks: [{
+				id: "78C527501251EDB8"
+				item: { count: 1, id: "createsifter:andesite_mesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27EA211485683A20"]
+			id: "02101C189C3A1227"
+			tasks: [{
+				id: "2D52904B5FAC13DA"
+				item: { count: 1, id: "createsifter:brass_mesh" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27EA211485683A20"]
+			id: "6274267ACDC05A8A"
+			tasks: [{
+				id: "6FA28FE5EC4FF202"
+				item: { count: 1, id: "createsifter:sturdy_mesh" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"02101C189C3A1227"
+				"6274267ACDC05A8A"
+			]
+			dependency_requirement: "one_completed"
+			id: "523A93335A73CD52"
+			tasks: [{
+				id: "18FF8A9201795709"
+				item: { count: 1, id: "createsifter:brass_sifter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["523A93335A73CD52"]
+			dependency_requirement: "all_started"
+			id: "07E8D9ACC66534AF"
+			tasks: [{
+				id: "5198EBD6497E97E6"
+				item: { count: 1, id: "createsifter:advanced_sturdy_mesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["07E8D9ACC66534AF"]
+			id: "2545D67BBCAA5664"
+			tasks: [{
+				id: "1469D7189B005CC5"
+				item: { count: 1, id: "createsifter:custom_mesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2545D67BBCAA5664"]
+			id: "2149E00DF27DDDCE"
+			tasks: [{
+				id: "5F333FBFF69C9997"
+				item: { count: 1, id: "createsifter:advanced_custom_mesh" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["23A9162C3CB4C816"]
+			dependency_requirement: "all_started"
+			id: "156C777ED57A24FA"
+			size: 1.5d
+			tasks: [{
+				id: "04FA73C7FAAFB4D9"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,536 @@
+{
+	autofocus_id: "09352304E66F293E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter__0"
+	group: "0A59318266D808D9"
+	icon: {
+		id: "minecraft:iron_axe"
+	}
+	id: "7229B0865BD14C88"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 2.0d
+			id: "09352304E66F293E"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "northstar:textures/planet/solar_system/earth.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6EFCAFAC36108240"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09352304E66F293E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "quark:textures/emote/salute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "32B56730E0355DEC"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "138537784475B17E"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63D0E9FF5303C58A"]
+			icon: {
+				id: "grapplemod:grappling_hook"
+			}
+			id: "373F40E3D6D741AA"
+			optional: true
+			tasks: [{
+				id: "68DA97E9361EA5E4"
+				item: { count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["611CFC8B978BF933"]
+			id: "1DDA2CF31C6FA68B"
+			optional: true
+			tasks: [{
+				id: "4DA78015779AAD5B"
+				item: { count: 1, id: "supplementaries:quiver" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["562FA391D325D08D"]
+			icon: {
+				id: "supplementaries:rope"
+			}
+			id: "63D0E9FF5303C58A"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "2BD1C767B438E830"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ropes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["32B56730E0355DEC"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "6D42BDCF31776AB4"
+			tasks: [
+				{
+					id: "12AC6B9046A20407"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:meals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A2A1AAB7DC8D690"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/raw_meat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E0D8FEF5FD3EB40"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32B56730E0355DEC"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "supplementaries:daub_cross_brace"
+			}
+			id: "429E5C06EF852758"
+			tasks: [
+				{
+					id: "19AD08029A5C2659"
+					item: { count: 1, id: "quark:thatch" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "749BEF6DFF6E0822"
+					item: { count: 1, id: "supplementaries:daub_frame" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "326D8A19FFFFAC4E"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D42BDCF31776AB4"]
+			id: "39B8B323EF8E44E8"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "16C2DB4F7D8413AE"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01FC9ECD821CC3FD"
+					item: { count: 1, id: "minecraft:wheat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1294F31C121428B8"
+					item: { count: 1, id: "create:wheat_flour" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2666D1290E18CE1F"
+					item: { count: 1, id: "create:dough" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39B8B323EF8E44E8"]
+			id: "5BAC997E678E2219"
+			optional: true
+			rewards: [{
+				id: "46DC91CD8E994B0D"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "769D89B02C47784B"
+					item: { count: 1, id: "minecraft:bread" }
+					type: "item"
+				}
+				{
+					id: "2BB051E1190276AD"
+					item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CFADDA18C6FE725"]
+			dependency_requirement: "one_started"
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+			}
+			id: "797D8F18C9417930"
+			tasks: [{
+				id: "71DED19C72CED139"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["33BD257E8BAA2479"]
+			dependency_requirement: "all_started"
+			id: "3D761125744AC6C2"
+			optional: true
+			tasks: [{
+				id: "5D27F3EBFA70F2FD"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["32B56730E0355DEC"]
+			dependency_requirement: "all_started"
+			id: "5CFADDA18C6FE725"
+			tasks: [{
+				id: "4BF6032FACB2FBD3"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5CFADDA18C6FE725"]
+			icon: {
+				id: "farmersdelight:straw"
+			}
+			id: "562FA391D325D08D"
+			tasks: [
+				{
+					id: "1602F141990276F5"
+					item: { count: 1, id: "farmersdelight:straw" }
+					type: "item"
+				}
+				{
+					id: "2064978DEFA1CAC5"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["562FA391D325D08D"]
+			id: "0BA4A2D4CCB7D382"
+			tasks: [{
+				id: "2C5A57ADF161FB64"
+				item: { count: 1, id: "createsifter:string_mesh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0BA4A2D4CCB7D382"]
+			icon: {
+				id: "minecraft:clay_ball"
+			}
+			id: "7B32321413C4B4BF"
+			tasks: [
+				{
+					id: "6A80DCD1A847EEB8"
+					item: { count: 1, id: "minecraft:gravel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "616DDB666E20D52F"
+					item: { count: 1, id: "minecraft:sand" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5407A0E2E27B3EB1"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					id: "76DF6856BDC942DC"
+					item: { count: 1, id: "minecraft:flint" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7B32321413C4B4BF"]
+			icon: {
+				id: "minecraft:brick"
+			}
+			id: "28975278056C9BA4"
+			tasks: [
+				{
+					id: "6BEB0C871F5CBD9B"
+					item: { count: 1, id: "minecraft:brick" }
+					type: "item"
+				}
+				{
+					id: "5970D33B9FBCA81C"
+					item: { count: 1, id: "minecraft:campfire" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["28975278056C9BA4"]
+			id: "33BD257E8BAA2479"
+			tasks: [{
+				id: "31754218A8D2AED4"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["33BD257E8BAA2479"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "6E14036FB00B2830"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "3EECA61C1651235E"
+				item: { count: 1, id: "quark:deepslate_furnace" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["33BD257E8BAA2479"]
+			id: "60C4E0DF5BA4EAD1"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "7B6A097965620E44"
+				item: { count: 1, id: "supplementaries:bellows" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3D761125744AC6C2"
+				"797D8F18C9417930"
+			]
+			dependency_requirement: "one_completed"
+			id: "1A189B0A64506F22"
+			tasks: [{
+				id: "30445E71B8C6E361"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A189B0A64506F22"]
+			dependency_requirement: "all_started"
+			id: "64AD8B4AD53B6CFE"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "69472EEC1BF7432A"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["562FA391D325D08D"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "611CFC8B978BF933"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "2929B8D1C8533370"
+					item: { count: 1, id: "minecraft:bow" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3508D1315817734E"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["611CFC8B978BF933"]
+			id: "74E078BC80BDEFD7"
+			optional: true
+			tasks: [{
+				id: "4931860CBFA09D01"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0BA4A2D4CCB7D382"
+				"6D42BDCF31776AB4"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "317E1DA801BAB719"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "6DB02A9A2608EC57"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "127809D59B1F71B3"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"28975278056C9BA4"
+				"317E1DA801BAB719"
+			]
+			dependency_requirement: "all_started"
+			id: "635F1EFF5C2EE149"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "47990616442B78B4"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "524E2B62310F0CC1"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "373DF5117E35A339"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1A189B0A64506F22"]
+			id: "3A6E522DBA857694"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "400FD6D0445ADC20"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["373F40E3D6D741AA"]
+			id: "5F3C00AEC600B734"
+			tasks: [{
+				id: "1752C91C71ADC5A1"
+				item: { count: 1, id: "reliable_gliders:glider" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["429E5C06EF852758"]
+			dependency_requirement: "all_started"
+			id: "2D27139687E1FCB7"
+			tasks: [{
+				id: "1E4D4BC057FD69E0"
+				item: { count: 1, id: "tfmg:concrete" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+	]
+}

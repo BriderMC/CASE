@@ -1,0 +1,12 @@
+name = "Create More: Vertical Belts 1.0.0"
+filename = "cmverticaladditions-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "faf3ed076269d27fcabaffae345cf309d1d7f16a"
+
+[update.curseforge]
+project-id = 1455587
+file-id = 7584940

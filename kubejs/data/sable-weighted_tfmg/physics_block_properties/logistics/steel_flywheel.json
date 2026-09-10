@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:steel_flywheel",
+  "properties": {
+    "sable:mass": 4.0,
+    "sable:volume": 1.0
+  }
+}

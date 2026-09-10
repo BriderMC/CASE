@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:cast_iron_truss",
+  "properties": {
+    "sable:mass": 0.65,
+    "sable:volume": 1.0
+  }
+}

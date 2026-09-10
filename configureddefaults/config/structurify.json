@@ -1,0 +1,443 @@
+{
+  "config_version": "2.0.34",
+  "config_datetime": "2026-08-31_00-43-49",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "minecraft:ancient_city",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:bastion_remnant",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:buried_treasure",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:desert_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:end_city",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:fortress",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:jungle_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mansion",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mineshaft",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:mineshaft_mesa",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:monument",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:nether_fossil",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ocean_ruin_cold",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ocean_ruin_warm",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:pillager_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:shipwreck",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:shipwreck_beached",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:stronghold",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:swamp_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "ae2:meteorite",
+      "whitelisted_biomes": [
+        "#northstar:venus_biomes"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:mushroom_fields",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:stony_shore",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "minecraft:snowy_slopes",
+        "minecraft:snowy_plains",
+        "minecraft:snowy_beach",
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:grove",
+        "minecraft:windswept_hills",
+        "minecraft:snowy_taiga",
+        "minecraft:windswept_forest",
+        "minecraft:taiga",
+        "minecraft:plains",
+        "minecraft:meadow",
+        "minecraft:beach",
+        "minecraft:forest",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:savanna_plateau",
+        "minecraft:savanna",
+        "minecraft:jungle",
+        "minecraft:badlands",
+        "minecraft:desert",
+        "minecraft:wooded_badlands",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:frozen_river",
+        "minecraft:river",
+        "minecraft:ice_spikes",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:sunflower_plains",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:sparse_jungle",
+        "minecraft:bamboo_jungle",
+        "minecraft:eroded_badlands",
+        "minecraft:windswept_savanna",
+        "minecraft:cherry_grove",
+        "minecraft:frozen_peaks",
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        "minecraft:deep_dark",
+        "terralith:cave/andesite_caves",
+        "terralith:cave/deep_caves",
+        "terralith:cave/diorite_caves",
+        "terralith:cave/fungal_caves",
+        "terralith:cave/granite_caves",
+        "terralith:cave/infested_caves",
+        "terralith:cave/mantle_caves",
+        "terralith:cave/thermal_caves",
+        "terralith:cave/tuff_caves",
+        "terralith:cave/underground_jungle",
+        "terralith:alpha_islands",
+        "terralith:alpha_islands_winter",
+        "terralith:alpine_grove",
+        "terralith:alpine_highlands",
+        "terralith:amethyst_canyon",
+        "terralith:amethyst_rainforest",
+        "terralith:ancient_sands",
+        "terralith:arid_highlands",
+        "terralith:ashen_savanna",
+        "terralith:basalt_cliffs",
+        "terralith:birch_taiga",
+        "terralith:blooming_plateau",
+        "terralith:blooming_valley",
+        "terralith:brushland",
+        "terralith:bryce_canyon",
+        "terralith:caldera",
+        "terralith:cloud_forest",
+        "terralith:cold_shrubland",
+        "terralith:desert_canyon",
+        "terralith:desert_oasis",
+        "terralith:desert_spires",
+        "terralith:emerald_peaks",
+        "terralith:forested_highlands",
+        "terralith:fractured_savanna",
+        "terralith:frozen_cliffs",
+        "terralith:glacial_chasm",
+        "terralith:granite_cliffs",
+        "terralith:gravel_beach",
+        "terralith:gravel_desert",
+        "terralith:haze_mountain",
+        "terralith:highlands",
+        "terralith:hot_shrubland",
+        "terralith:ice_marsh",
+        "terralith:jungle_mountains",
+        "terralith:lavender_forest",
+        "terralith:lavender_valley",
+        "terralith:lush_desert",
+        "terralith:lush_valley",
+        "terralith:mirage_isles",
+        "terralith:moonlight_grove",
+        "terralith:moonlight_valley",
+        "terralith:orchid_swamp",
+        "terralith:painted_mountains",
+        "terralith:red_oasis",
+        "terralith:rocky_jungle",
+        "terralith:rocky_mountains",
+        "terralith:rocky_shrubland",
+        "terralith:sakura_grove",
+        "terralith:sakura_valley",
+        "terralith:sandstone_valley",
+        "terralith:savanna_badlands",
+        "terralith:savanna_slopes",
+        "terralith:scarlet_mountains",
+        "terralith:shield",
+        "terralith:shield_clearing",
+        "terralith:shrubland",
+        "terralith:siberian_grove",
+        "terralith:siberian_taiga",
+        "terralith:snowy_badlands",
+        "terralith:snowy_cherry_grove",
+        "terralith:snowy_maple_forest",
+        "terralith:snowy_shield",
+        "terralith:steppe",
+        "terralith:stony_spires",
+        "terralith:temperate_highlands",
+        "terralith:tropical_jungle",
+        "terralith:valley_clearing",
+        "terralith:volcanic_crater",
+        "terralith:volcanic_peaks",
+        "terralith:warm_river",
+        "terralith:warped_mesa",
+        "terralith:white_cliffs",
+        "terralith:white_mesa",
+        "terralith:windswept_spires",
+        "terralith:wintry_forest",
+        "terralith:wintry_lowlands",
+        "terralith:yellowstone",
+        "terralith:yosemite_cliffs",
+        "terralith:yosemite_lowlands",
+        "terralith:cave/frostfire_caves",
+        "quark:glimmering_weald"
+      ]
+    },
+    {
+      "name": "beautify:botanist_house_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "beautify:botanist_house_plains",
+      "is_disabled": true
+    },
+    {
+      "name": "beautify:botanist_house_savanna",
+      "is_disabled": true
+    },
+    {
+      "name": "beautify:botanist_house_snowy",
+      "is_disabled": true
+    },
+    {
+      "name": "beautify:botanist_house_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "supplementaries:galleon",
+      "is_disabled": true
+    },
+    {
+      "name": "supplementaries:road_sign",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:desert_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:fortified_desert_village",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:fortified_village",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:glacial_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:igloo",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:mage_complex",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:mage_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:mage_tower_autumn",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:mage_tower_spring",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:mage_tower_summer",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:mage_tower_winter",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:rubble_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:rubble_forest",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:rubble_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:rubble_mesa",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:rubble_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:rubble_taiga",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:spire",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/frosted_dungeon",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/giant_bee_hive",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/mining_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/oak_cabin",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/old_refinery",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/sunken_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground/witch_hut",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:underground_cabin",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:valley_lodge",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:witch_hut",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

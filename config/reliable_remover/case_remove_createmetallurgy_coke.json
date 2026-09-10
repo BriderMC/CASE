@@ -1,0 +1,9 @@
+[
+  {
+    "action": "remove",
+    "items": [
+      "createmetallurgy:coke",
+      "createmetallurgy:coke_block"
+    ]
+  }
+]

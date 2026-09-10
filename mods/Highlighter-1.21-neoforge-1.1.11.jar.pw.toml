@@ -1,0 +1,12 @@
+name = "1.1.11 NeoForge (1.21, 1.21.1)"
+filename = "Highlighter-1.21-neoforge-1.1.11.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "22d29eba774530b40a540fdf5ce2d14d89bbe036"
+
+[update.curseforge]
+project-id = 521590
+file-id = 5591015

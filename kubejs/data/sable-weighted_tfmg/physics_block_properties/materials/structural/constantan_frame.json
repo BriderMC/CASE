@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:constantan_frame",
+  "properties": {
+    "sable:mass": 0.85,
+    "sable:volume": 1.0
+  }
+}

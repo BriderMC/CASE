@@ -1,0 +1,12 @@
+name = "Fast Async World Save[Forge/Neo/Fabric]"
+filename = "fastasyncworldsave-1.21-2.6.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "87e019715314631f2c8288cf7c73a52a61b2d61b"
+
+[update.curseforge]
+project-id = 951499
+file-id = 6935204

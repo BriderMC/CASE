@@ -1,0 +1,8 @@
+{
+  "selector": "createdeco:locked_industrial_iron_door",
+  "priority": 1200,
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 0.38
+  }
+}

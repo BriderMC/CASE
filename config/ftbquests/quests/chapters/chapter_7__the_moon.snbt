@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_7__the_moon"
+	group: "5603918543C67518"
+	icon: {
+		components: {
+			"ftbquests:icon": "northstar:textures/planet/solar_system/earth/moon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "660BEE1AAB2F8FCA"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6CAC4EF67F96768B"
+				"7234E071EB62F6F9"
+				"300AC1AE6EB00083"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "northstar:textures/planet/solar_system/earth/moon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "323D2D88D389A13B"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "452C2D16D5D959CE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0D139A9A5612C30D"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "quark:textures/emote/custom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "764638DD6184D9C3"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+name = "Reliable EMI Neoforge 1.21.1 - 4.6.3"
+filename = "remi-neoforge-1.21.1-4.6.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "b5d9aea908082eca2bf79e632b7d9da8203ed9bd"
+
+[update.curseforge]
+project-id = 1411826
+file-id = 8737694

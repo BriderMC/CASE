@@ -1,0 +1,12 @@
+name = "Structurify 2.0.34"
+filename = "structurify-neoforge-2.0.34+mc1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "80c99f33242877dd8dedefe710693f164cdcb7db"
+
+[update.curseforge]
+project-id = 1087551
+file-id = 8705703

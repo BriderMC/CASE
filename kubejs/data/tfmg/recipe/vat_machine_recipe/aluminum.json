@@ -1,0 +1,25 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:steel_vat",
+    "tfmg:firebrick_lined_vat"
+  ],
+  "ingredients": [
+    { "item": "tfmg:bauxite_powder" },
+    { "item": "tfmg:bauxite_powder" },
+    { "item": "tfmg:bauxite_powder" },
+    { "item": "tfmg:bauxite_powder" },
+    { "type": "neoforge:single", "amount": 1000, "fluid": "northstar:sodium" }
+  ],
+  "machines": [
+    "tfmg:electrode",
+    "tfmg:electrode"
+  ],
+  "min_size": 1,
+  "processing_time": 100,
+  "results": [
+    { "amount": 1000, "id": "case:sodium_aluminate" },
+    { "chance": 0.5, "id": "createmetallurgy:slag" },
+    { "chance": 0.5, "id": "mekanism:dust_iron" }
+  ]
+}

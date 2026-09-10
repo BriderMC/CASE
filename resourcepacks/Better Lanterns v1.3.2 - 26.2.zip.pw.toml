@@ -1,0 +1,12 @@
+name = "Better Lanterns v1.3.2 - 26.2"
+filename = "Better Lanterns v1.3.2 - 26.2.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "4687728da8f6bff621b3a3caf19d7057e67d15d1"
+
+[update.curseforge]
+project-id = 618339
+file-id = 8325719

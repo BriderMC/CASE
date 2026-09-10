@@ -1,0 +1,29 @@
+{
+  "showAttackMessage": true,
+  "showHandSwingMessage": true,
+  "showRemovalMessage": true,
+  "removeItemsFromCreativeTabs": true,
+  "removeItemsFromEmi": true,
+  "removeItemsFromInventories": true,
+  "removeItemsOnInventoryOpen": true,
+  "removeDroppedItems": true,
+  "removeItemsFromLootChests": true,
+  "removeItemsFromStorage": true,
+  "removeItemsFromInfoTabs": true,
+  "removeItemsFromTrades": true,
+  "removeMobEquipment": true,
+  "removeCnmChildren": true,
+  "enableEmiRemoval": true,
+  "showEmiToast": true,
+  "showEmiChatMessages": true,
+  "reloadAfterRemoval": true,
+  "blacklistedItems": [
+    "quark:rope",
+    "tfmg:coal_coke_dust",
+    "createpropulsion:stirling_engine",
+    "northstar:iron_cogwheel",
+    "northstar:iron_large_cogwheel",
+    "tfmg:gasoline_bucket",
+    "moreburners:copper_coil"
+  ]
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:crafting_table",
+    "replacement": "#c:cogwheels",
+    "id": "create:crafting/kinetics/mechanical_crafter",
+    "type": "minecraft:crafting_shaped"
+  }
+]

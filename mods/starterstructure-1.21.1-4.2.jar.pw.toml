@@ -1,0 +1,12 @@
+name = "[Fabric/Forge/Neo] 1.21.1-4.2"
+filename = "starterstructure-1.21.1-4.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "740b1775e3a66fe29a872b411cf5dc5c1f516929"
+
+[update.curseforge]
+project-id = 746391
+file-id = 6367235

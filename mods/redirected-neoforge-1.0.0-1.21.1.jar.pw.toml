@@ -1,0 +1,12 @@
+name = "Redirected Neoforge 1.0.0 for 1.21.1"
+filename = "redirected-neoforge-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "2704eeefedf52edc30d68c84e2ee0ccf4eea6da0"
+
+[update.curseforge]
+project-id = 1191845
+file-id = 6148845

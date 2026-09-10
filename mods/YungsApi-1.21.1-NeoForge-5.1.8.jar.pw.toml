@@ -1,0 +1,12 @@
+name = "[1.21.1] v5.1.8 (NeoForge)"
+filename = "YungsApi-1.21.1-NeoForge-5.1.8.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "eb5757e5cb387553ed4d342e7aecf5b7dcb384a0"
+
+[update.curseforge]
+project-id = 1015100
+file-id = 8702150

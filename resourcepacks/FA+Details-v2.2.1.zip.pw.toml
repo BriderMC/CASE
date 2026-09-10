@@ -1,0 +1,12 @@
+name = "Details Add-on 2.2.1"
+filename = "FA+Details-v2.2.1.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "456243af4db5e0b575b1f31c0ba5edfac24ec346"
+
+[update.curseforge]
+project-id = 1346132
+file-id = 7953810

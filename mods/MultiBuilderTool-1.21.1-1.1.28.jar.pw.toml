@@ -1,0 +1,12 @@
+name = "Multi Builder Tool 1.1.28"
+filename = "MultiBuilderTool-1.21.1-1.1.28.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "45cd7c4af59f1a953fee82c68435a78b3f2995cf"
+
+[update.curseforge]
+project-id = 827020
+file-id = 8505466

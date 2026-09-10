@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:blast_stove",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 1.0
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:dried_kelp",
+    "replacement": "rubberworks:rubber_sheet",
+    "id": "createornithopterglider:rope",
+    "type": "minecraft:crafting_shaped"
+  }
+]

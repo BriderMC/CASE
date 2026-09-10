@@ -1,0 +1,10 @@
+{
+  "selector": "#createdeco:shipping_containers",
+  "priority": 1200,  
+  "properties": {
+    "sable:mass": 4.0,
+    "sable:volume": 1.0,
+    "sable:friction": 2.0,
+    "sable:fragile": false
+  }
+}

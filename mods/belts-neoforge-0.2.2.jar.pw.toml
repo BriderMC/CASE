@@ -1,0 +1,12 @@
+name = "neoforge 0.2.2"
+filename = "belts-neoforge-0.2.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "93a35ebdf264f0b2bc8b36800efbf4b8f933577a"
+
+[update.curseforge]
+project-id = 1292980
+file-id = 7195755

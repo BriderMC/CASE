@@ -1,0 +1,12 @@
+name = "1.21.1-neoforge-1.3.2"
+filename = "createultimine-1.21.1-neoforge-1.3.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "5257686b00b3c1ed79737411577914eac182dde4"
+
+[update.curseforge]
+project-id = 1231381
+file-id = 8086425

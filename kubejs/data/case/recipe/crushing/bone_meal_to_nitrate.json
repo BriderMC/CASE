@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "tfmg:nitrate_dust"
+    }
+  ]
+}

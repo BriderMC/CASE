@@ -1,0 +1,17 @@
+{
+  "type": "createmetallurgy:casting_in_basin",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "tfmg:molten_plastic"
+    }
+  ],
+  "processing_time": 100,
+  "result": {
+    "item": {
+      "count": 1,
+      "id": "tfmg:plastic_block"
+    }
+  }
+}

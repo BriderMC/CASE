@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:heavy_casing_encased_steel_cogwheel",
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 1.0
+  }
+}

@@ -1,0 +1,12 @@
+name = "Configurable Neoforge 3.5.2 for 1.21.1"
+filename = "configurable-3.5.2+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "995cb737fb267f39b1936771de38f252de90e9a9"
+
+[update.curseforge]
+project-id = 1092048
+file-id = 8438541

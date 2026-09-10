@@ -1,0 +1,12 @@
+name = "Schematic Energistics 1.5.4a"
+filename = "schematicenergistics-1.21.1-1.5.4a.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "bad3089425ce58b49bae110a941130088ebe5f2a"
+
+[update.curseforge]
+project-id = 1283481
+file-id = 8465295

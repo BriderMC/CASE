@@ -1,0 +1,43 @@
+[
+  {
+    "inputs": [
+      "mekanism:fluorite_ore",
+      "mekanism:lead_ore",
+      "mekanism:osmium_ore",
+      "mekanism:tin_ore",
+      "mekanism:uranium_ore",
+      "oritech:nickel_ore",
+      "oritech:platinum_ore"
+    ],
+    "output": "minecraft:stone",
+    "dimensions": ["minecraft:overworld"],
+    "retrogen": false,
+    "player_blocks": false,
+    "keep_states": false
+  },
+  {
+    "inputs": [
+      "mekanism:deepslate_fluorite_ore",
+      "mekanism:deepslate_lead_ore",
+      "mekanism:deepslate_osmium_ore",
+      "mekanism:deepslate_tin_ore",
+      "mekanism:deepslate_uranium_ore",
+      "oritech:deepslate_nickel_ore",
+      "oritech:deepslate_platinum_ore",
+      "oritech:deepslate_uranium_ore"
+    ],
+    "output": "minecraft:deepslate",
+    "dimensions": ["minecraft:overworld"],
+    "retrogen": false,
+    "player_blocks": false,
+    "keep_states": false
+  },
+  {
+    "inputs": ["oritech:endstone_platinum_ore"],
+    "output": "minecraft:end_stone",
+    "dimensions": ["minecraft:overworld"],
+    "retrogen": false,
+    "player_blocks": false,
+    "keep_states": false
+  }
+]

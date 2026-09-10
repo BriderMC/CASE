@@ -1,0 +1,12 @@
+name = "v1.1.1"
+filename = "refinedstorage-mekanism-integration-1.1.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "06f908491b37b4df924376d3cf6524cdd58f507c"
+
+[update.curseforge]
+project-id = 1230504
+file-id = 7163500

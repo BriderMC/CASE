@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "maxBirds": 100,
+  "maxMoths": 8,
+  "maxSpiders": 16,
+  "spawnHatman": false,
+  "spawnBird": true,
+  "spawnMoth": false,
+  "spawnSpider": false,
+  "bird": {
+    "biomeList": {
+      "entries": [
+        "#c:is_forest",
+        "#c:is_taiga",
+        "#c:is_jungle",
+        "#minecraft:is_forest",
+        "#minecraft:is_taiga",
+        "#minecraft:is_jungle",
+        "terralith:alpine_grove",
+        "terralith:birch_taiga",
+        "terralith:blooming_plateau",
+        "terralith:blooming_valley",
+        "terralith:brushland",
+        "terralith:cloud_forest",
+        "terralith:forested_highlands",
+        "terralith:highlands",
+        "terralith:jungle_mountains",
+        "terralith:lavender_forest",
+        "terralith:lavender_valley",
+        "terralith:lush_valley",
+        "terralith:moonlight_grove",
+        "terralith:moonlight_valley",
+        "terralith:orchid_swamp",
+        "terralith:rocky_jungle",
+        "terralith:sakura_grove",
+        "terralith:sakura_valley",
+        "terralith:siberian_grove",
+        "terralith:siberian_taiga",
+        "terralith:tropical_jungle",
+        "terralith:valley_clearing",
+        "terralith:warm_river",
+        "terralith:wintry_forest",
+        "terralith:snowy_cherry_grove",
+        "terralith:snowy_maple_forest",
+        "terralith:yosemite_lowlands"
+      ],
+      "isWhitelist": true
+    },
+    "blockList": {
+      "entries": [
+        "#minecraft:leaves"
+      ],
+      "isWhitelist": true
+    },
+    "reactionDistance": 32,
+    "reactionSpeed": 20,
+    "despawnDistance": 360,
+    "blockAvoidanceDistance": 64,
+    "blockAvoidanceFactor": 0.5,
+    "separationDistance": 2,
+    "separation": 0.01,
+    "flockRange": 20,
+    "alignment": 0.05,
+    "cohesion": 0.001,
+    "maxSpeed": 1.0,
+    "minSpeed": 0.3,
+    "maxBehaviourTime": 100,
+    "landingResponsiveness": 0.01,
+    "flightHeightLimit": 64,
+    "flightHeightLimitFactor": 0.005,
+    "flightRandomness": 0.03
+  }
+}

@@ -1,0 +1,12 @@
+name = "Nature's Carpet 26.1.1"
+filename = "natures_carpet1.21-26.1.1.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "73b36b4219331ba5b17ee4c0598012b86083805c"
+
+[update.curseforge]
+project-id = 1173693
+file-id = 7903507

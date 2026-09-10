@@ -1,0 +1,8 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#c:ingots/steel",
+    "replacement": "#c:rods/steel",
+    "id": "tfmg:item_application/steel_casing"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:cast_iron_vat",
+    "tfmg:steel_vat",
+    "tfmg:firebrick_lined_vat"
+  ],
+  "heat_level": 8,
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "northstar:titanium_tetrachloride"
+    },
+    {
+      "item": "mekanism:dust_steel"
+    },
+    {
+      "item": "mekanism:dust_steel"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "min_size": 1,
+  "results": [
+    {
+      "id": "northstar:raw_titanium_ore"
+    }
+  ]
+}

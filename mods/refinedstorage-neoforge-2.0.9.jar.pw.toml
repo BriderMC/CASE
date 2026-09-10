@@ -1,0 +1,12 @@
+name = "v2.0.9"
+filename = "refinedstorage-neoforge-2.0.9.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "bf05b983968e75b5466a270c68d1fdc7ba2a5e77"
+
+[update.curseforge]
+project-id = 243076
+file-id = 8211701

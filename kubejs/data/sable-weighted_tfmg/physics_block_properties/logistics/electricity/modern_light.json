@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:modern_light",
+  "properties": {
+    "sable:mass": 0.35,
+    "sable:volume": 0.9
+  }
+}

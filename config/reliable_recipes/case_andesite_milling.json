@@ -1,0 +1,7 @@
+[
+  {
+    "action": "replace_output",
+    "replacement": "case:crushed_andesite",
+    "id": "create:milling/andesite"
+  }
+]

@@ -1,0 +1,12 @@
+name = "10.1.0.3 for NeoForge 1.21.1"
+filename = "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "8b9034d4c43f880b1f1ebdd3943219de0b0bc4c5"
+
+[update.curseforge]
+project-id = 291874
+file-id = 6182596

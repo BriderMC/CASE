@@ -1,0 +1,20 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:cast_iron_vat",
+    "tfmg:steel_vat",
+    "tfmg:firebrick_lined_vat"
+  ],
+  "ingredients": [
+    { "item": "moremekanismprocessing:dust_aluminum" },
+    { "item": "moremekanismprocessing:dust_aluminum" }
+  ],
+  "machines": [
+    "tfmg:electrode",
+    "tfmg:electrode"
+  ],
+  "min_size": 1,
+  "results": [
+    { "id": "tfmg:aluminum_ingot" }
+  ]
+}

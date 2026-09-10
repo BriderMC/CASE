@@ -1,0 +1,20 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "tfmg:molten_plastic"
+    },
+    {
+      "item": "createmetallurgy:graphite_plate_mold"
+    }
+  ],
+  "processing_time": 100,
+  "result": {
+    "item": {
+      "count": 1,
+      "id": "tfmg:plastic_sheet"
+    }
+  }
+}

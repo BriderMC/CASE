@@ -1,0 +1,12 @@
+name = "[NeoForge] v1.0.10 MC 1.21"
+filename = "melody_neoforge_1.0.10_MC_1.21.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "e83052a92c4ca0016bcfe7f0207273983dc84698"
+
+[update.curseforge]
+project-id = 938643
+file-id = 5453382

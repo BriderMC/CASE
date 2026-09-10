@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:steel_encased_aluminum_cogwheel",
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 1.0
+  }
+}

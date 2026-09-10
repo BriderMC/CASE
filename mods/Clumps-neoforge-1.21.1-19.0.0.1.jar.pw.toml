@@ -1,0 +1,12 @@
+name = "NeoForge-1.21.1-19.0.0.1"
+filename = "Clumps-neoforge-1.21.1-19.0.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "fa2576297c7bd12b28aa7070e8141792bd66da4c"
+
+[update.curseforge]
+project-id = 256717
+file-id = 5623731

@@ -1,0 +1,21 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:dried_kelp",
+    "replacement": "rubberworks:rubber_sheet",
+    "id": [
+      "aeronautics_utility_objects:giant_hydraulic_rod",
+      "aeronautics_utility_objects:brass_universal_joint",
+      "offroad:small_tire",
+      "offroad:tire",
+      "drivebysable:cable",
+      "create_hypertube:hypertube_funnel"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:dried_kelp_block",
+    "replacement": "rubberworks:rubber_block",
+    "id": "offroad:monstrous_tire"
+  }
+]

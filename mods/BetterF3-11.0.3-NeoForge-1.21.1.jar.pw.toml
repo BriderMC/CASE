@@ -1,0 +1,12 @@
+name = "BetterF3 NeoForge v11.0.3 (1.21.1)"
+filename = "BetterF3-11.0.3-NeoForge-1.21.1.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "8fa17df26d3650416bc124be7a264bc1566a3b26"
+
+[update.curseforge]
+project-id = 401648
+file-id = 5873258

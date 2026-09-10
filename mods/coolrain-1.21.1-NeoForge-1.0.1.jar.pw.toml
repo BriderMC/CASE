@@ -1,0 +1,12 @@
+name = "coolrain-1.20.1-Forge-1.0.3.jar"
+filename = "coolrain-1.21.1-NeoForge-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "a15df749534b7b2003282ffb5950dcf3767d1243"
+
+[update.curseforge]
+project-id = 1346978
+file-id = 7270449

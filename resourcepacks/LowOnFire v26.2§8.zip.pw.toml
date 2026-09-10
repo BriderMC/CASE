@@ -1,0 +1,12 @@
+name = "Low On Fire 26.2"
+filename = "LowOnFire v26.1\u00a78.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "96932a034fff4cd0cad08ba12db730450c4772da"
+
+[update.curseforge]
+project-id = 580683
+file-id = 7825035

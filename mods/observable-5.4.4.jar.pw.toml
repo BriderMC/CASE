@@ -1,0 +1,12 @@
+name = "5.4.4 (neoforge)"
+filename = "observable-5.4.4.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "e17417eee213aac8291ff8bad1c6a5f710636b72"
+
+[update.curseforge]
+project-id = 509575
+file-id = 6697124

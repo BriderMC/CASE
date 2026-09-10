@@ -1,0 +1,12 @@
+name = "Mekanism: Water Generator Rebuild 1211-1.1.1"
+filename = "Mekanism-Water-Generator-Rebuild-1211-1.1.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "c4ec69c423fb1d391333abaa0a0f018bfb19b304"
+
+[update.curseforge]
+project-id = 1396471
+file-id = 8492800

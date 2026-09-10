@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "case:ore_iron_middle_low",
+    "case:ore_iron_middle_high",
+    "case:ore_iron_small_low",
+    "case:ore_iron_small_high",
+    "case:ore_iron_upper_low",
+    "case:ore_iron_upper_high"
+  ],
+  "step": "underground_ores"
+}

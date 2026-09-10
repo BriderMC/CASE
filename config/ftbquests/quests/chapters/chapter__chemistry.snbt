@@ -1,0 +1,390 @@
+{
+	autofocus_id: "4E02C1BE4EE9783D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter__chemistry"
+	group: "0A59318266D808D9"
+	icon: {
+		id: "tfmg:steel_chemical_vat"
+	}
+	id: "1600A33A3C518FB3"
+	images: [ ]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "refinedstorage:textures/gui/sprites/start.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4E02C1BE4EE9783D"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "61C055A423029694"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E02C1BE4EE9783D"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "tfmg:cast_iron_chemical_vat"
+			}
+			id: "2BBC681D956B8A1B"
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "48BD44368BDFF832"
+					item: { count: 1, id: "tfmg:cast_iron_chemical_vat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06D972E4C4FF0DAE"
+					item: { count: 1, id: "tfmg:steel_chemical_vat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51B13C19408A171A"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "northstar:brine_bucket"
+			}
+			id: "7D383F8C45BAA741"
+			tasks: [
+				{
+					id: "2FFA6DF51AA3C773"
+					item: { count: 1, id: "northstar:brine_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "385BE7C26392CFFF"
+					type: "checkmark"
+				}
+			]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E735E5375F89CA2"]
+			icon: {
+				id: "northstar:rutile_concentrate"
+			}
+			id: "318830DAF4A1DFFE"
+			ignore_reward_blocking: true
+			size: 1.0d
+			tasks: [{
+				id: "0449B755E1D10F53"
+				item: { count: 1, id: "northstar:rutile_concentrate" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37F610FEE617FC4E"]
+			icon: {
+				id: "tfmg:naphtha_bucket"
+			}
+			id: "662781210E210ABA"
+			tasks: [
+				{
+					id: "1D3C41FEC9C19FEB"
+					item: { count: 1, id: "tfmg:naphtha_bucket" }
+					type: "item"
+				}
+				{
+					id: "14D1825DE1ABE2D1"
+					item: { count: 1, id: "tfmg:ethylene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40125FB6C4555514"
+					item: { count: 1, id: "tfmg:propylene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35BECE5AF504944C"]
+			icon: {
+				id: "tfmg:cable_connector"
+			}
+			id: "4D4D4D4D4D4D4D4D"
+			optional: true
+			tasks: [
+				{
+					count: 2L
+					id: "5E5E5E5E5E5E5E5E"
+					item: { count: 1, id: "tfmg:cable_connector" }
+					type: "item"
+				}
+				{
+					id: "0AA55089BBEFECE1"
+					item: { count: 1, id: "tfmg:copper_spool" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A2182E97D9F5990"]
+			icon: {
+				id: "tfmg:electrode_holder"
+			}
+			id: "35BECE5AF504944C"
+			tasks: [
+				{
+					count: 2L
+					id: "732FF67C434D9853"
+					item: { count: 1, id: "tfmg:electrode_holder" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "04B64D70A282164A"
+					item: { count: 1, id: "tfmg:copper_electrode" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBC681D956B8A1B"]
+			icon: {
+				id: "tfmg:industrial_mixer"
+			}
+			id: "76C8F4D5142D0485"
+			tasks: [
+				{
+					id: "4BC22798837024D2"
+					item: { count: 1, id: "tfmg:industrial_mixer" }
+					type: "item"
+				}
+				{
+					id: "03BCB8DD087109DF"
+					item: { count: 1, id: "tfmg:mixer_blade" }
+					type: "item"
+				}
+				{
+					id: "7A33E301263010B9"
+					item: { count: 1, id: "tfmg:centrifuge" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2E735E5375F89CA2"
+				"7D383F8C45BAA741"
+			]
+			dependency_requirement: "one_started"
+			id: "027924D98BD66577"
+			tasks: [{
+				id: "29353D7D5718E2F7"
+				item: { count: 1, id: "northstar:chlorine_bucket" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"318830DAF4A1DFFE"
+				"027924D98BD66577"
+			]
+			icon: {
+				id: "northstar:titanium_tetrachloride_bucket"
+			}
+			id: "4E0103B7F59D3918"
+			tasks: [
+				{
+					id: "64D60C19D8395DFF"
+					item: { count: 1, id: "northstar:titanium_tetrachloride_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "503F478C856F8C36"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E0103B7F59D3918"]
+			id: "74E6A56FA87CC902"
+			tasks: [{
+				id: "7B0EBBAE817657CA"
+				item: { count: 1, id: "northstar:raw_titanium_ore" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74E6A56FA87CC902"]
+			id: "189D829AF9852EF1"
+			tasks: [{
+				id: "0BB9856C84FF2D14"
+				item: { count: 1, id: "northstar:titanium_ingot" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76C8F4D5142D0485"]
+			icon: {
+				id: "tfmg:plastic_sheet"
+			}
+			id: "37F610FEE617FC4E"
+			tasks: [{
+				id: "775FBD796C260B78"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35BECE5AF504944C"]
+			icon: {
+				id: "northstar:titanium_ingot"
+			}
+			id: "2E735E5375F89CA2"
+			tasks: [{
+				id: "5EF8790B08F8973C"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["662781210E210ABA"]
+			icon: {
+				id: "rubberworks:rubber_sheet_block"
+			}
+			id: "6F92785772A033A7"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "27B5A26DA7B0653D"
+					item: { count: 1, id: "mekanism:dust_sulfur" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F2C8B167851B773"
+					item: { count: 1, id: "tfmg:ethylene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "285236D006D25CE9"
+					item: { count: 1, id: "tfmg:propylene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C6D10B94A849FEE"
+					item: { count: 1, id: "rubberworks:rubber_sheet_block" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA48C271BF782C3"]
+			icon: {
+				id: "tfmg:plastic_sheet"
+			}
+			id: "1A2182E97D9F5990"
+			tasks: [{
+				id: "5A12FFAE13B5DAA6"
+				item: { count: 1, id: "tfmg:plastic_sheet" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["662781210E210ABA"]
+			id: "0BA48C271BF782C3"
+			tasks: [{
+				id: "7F0BB17C867A02A2"
+				item: { count: 1, id: "tfmg:molten_plastic_bucket" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["189D829AF9852EF1"]
+			icon: {
+				components: {
+					"ftbquests:icon": "quark:textures/emote/wave.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1E39027EBBA4F1A4"
+			rewards: [{
+				id: "3B8C31C51D4F1215"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "20C450366DCCA5EC"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A2182E97D9F5990"]
+			id: "049D2BDF1305941A"
+			optional: true
+			shape: "square"
+			tasks: [{
+				icon: {
+					id: "createdeco:decal_electrical"
+				}
+				id: "7015F340E4AEB199"
+				type: "custom"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

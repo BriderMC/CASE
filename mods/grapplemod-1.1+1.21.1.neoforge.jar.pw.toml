@@ -1,0 +1,12 @@
+name = "Grappling Hook Mod: Skybound 1.1+1.21.1-neoforge"
+filename = "grapplemod-1.1+1.21.1.neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "2b6060de273f721857d715db9a811ddaa5422683"
+
+[update.curseforge]
+project-id = 1559979
+file-id = 8176552

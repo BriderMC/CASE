@@ -1,0 +1,7 @@
+{
+  "selector": "#createdeco:support_wedges",
+  "properties": {
+    "sable:mass": 1.0,
+    "sable:volume": 0.3
+  }
+}

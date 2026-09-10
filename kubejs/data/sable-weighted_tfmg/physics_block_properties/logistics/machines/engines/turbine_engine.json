@@ -1,0 +1,18 @@
+{
+  "selector": "tfmg:turbine_engine",
+  "properties": {
+    "sable:mass": 0.75,
+    "sable:volume": 1.0
+  },
+  "overrides": {
+    "engine_state=back": {
+      "sable:mass": 0.75
+    },
+    "engine_state=front": {
+      "sable:mass": 0.85
+    },
+    "engine_state=normal": {
+      "sable:mass": 1.2
+    }
+  }
+}

@@ -1,0 +1,12 @@
+name = "[NeoForge]ModularMachineyReborn-1.21.1-3.0.22"
+filename = "modular_machinery_reborn-1.21.1-3.0.22.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "625d4d5ed8f2bd78c09c7bc68dc969ec200a4617"
+
+[update.curseforge]
+project-id = 1083840
+file-id = 8450758

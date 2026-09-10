@@ -1,0 +1,405 @@
+{
+	autofocus_id: "03D74C1582DF57D2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power"
+	group: "3137B88360487912"
+	icon: {
+		components: {
+			"ftbquests:icon": "refinedstorage:block/controller/cutouts/yellow"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "22DFFD158AEE28F7"
+	images: [{
+		click_action: "none:quest_enhance:text_v3:3.0:17:minecraft:defaultPower"
+		color: 16761919
+		height: 0.4583333333333333d
+		id: "3B68FEED4D10D5B7"
+		image: ""
+		rotation: 0.0d
+		width: 1.125d
+		x: -2.5d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68E04C8B816FFBB4"]
+			id: "61C78689A49D77DF"
+			tasks: [
+				{
+					id: "0BE5BBA1D5EB3913"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					id: "25F2F2B96C66B8B8"
+					item: { count: 1, id: "create:large_water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "refinedstorage:block/controller/cutouts/yellow"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.7d
+			id: "03D74C1582DF57D2"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4CD6E5F04302FBA4"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03D74C1582DF57D2"]
+			dependency_requirement: "all_started"
+			icon: {
+				id: "create:goggles"
+			}
+			id: "68E04C8B816FFBB4"
+			size: 1.5d
+			tasks: [
+				{
+					id: "19E8C3EA745FF583"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+				{
+					id: "1A5807601A99BF3F"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+				{
+					id: "1F93AD6F0DD0765C"
+					item: { count: 1, id: "create:speedometer" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "473D17C7317693D1"
+					item: { count: 1, id: "create:stressometer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68E04C8B816FFBB4"]
+			id: "35838DAE1FF80E9E"
+			tasks: [
+				{
+					id: "277A8C318495B178"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					id: "747A6AC4F4C8D6D9"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61C78689A49D77DF"
+				"35838DAE1FF80E9E"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "create:steam_engine"
+			}
+			id: "3DA6433AD7C19FBF"
+			tasks: [
+				{
+					id: "6F0080FDA1399FD1"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7AB91442494032FF"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "64DAF85D228986A5"
+					item: { count: 1, id: "create:hose_pulley" }
+					type: "item"
+				}
+				{
+					id: "1E05FACCABA2D57B"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "24B39E915CE967CC"
+					item: { count: 1, id: "createlowheated:basic_burner" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "783169F67D896E25"
+					item: { count: 1, id: "createpropulsion:solid_burner" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A64B07EA0226D7E"
+					item: { count: 1, id: "createdieselgenerators:burner" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BDD45AC5A459C35"
+					item: { count: 1, id: "createpropulsion:liquid_burner" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA6433AD7C19FBF"]
+			dependency_requirement: "all_started"
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			id: "627F9A2AF45F6B83"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "5624EA852F31DBE4"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "1B65E485F40099BF"
+					item: { count: 1, id: "moreburners:electric_burner" }
+					type: "item"
+				}
+				{
+					id: "6BB1988442A2F932"
+					item: { count: 1, id: "moreburners:heat_upgrade" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DA6433AD7C19FBF"]
+			id: "5D13C497A3BF6781"
+			tasks: [{
+				id: "1C8D96345DE90116"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D13C497A3BF6781"]
+			id: "04FADC5D6CEDA7DF"
+			tasks: [
+				{
+					id: "4E5D1A15CA6CE6B4"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "55C793FB66404420"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "1182D87639290AC4"
+					item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "6794724354FC9EDD"
+					item: { count: 1, id: "createdieselgenerators:engine_silencer" }
+					type: "item"
+				}
+				{
+					id: "44C0C0084D43A442"
+					item: { count: 1, id: "createdieselgenerators:engine_turbocharger" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04FADC5D6CEDA7DF"]
+			id: "0D47C237CDD69E32"
+			tasks: [{
+				id: "358CEE536F92A45D"
+				item: { count: 1, id: "northstar:combustion_engine" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03D74C1582DF57D2"]
+			dependency_requirement: "all_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "dynamic_fps:textures/battery/toast/charging.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "29A555E2A8EBBE78"
+			size: 1.5d
+			tasks: [{
+				id: "3497423C3775351C"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29A555E2A8EBBE78"
+				"1A2182E97D9F5990"
+			]
+			icon: {
+				id: "createaddition:electrum_ingot"
+			}
+			id: "4D4BD8D84E0534D0"
+			tasks: [
+				{
+					id: "2E47587A45599E55"
+					item: { count: 1, id: "createaddition:electrum_ingot" }
+					type: "item"
+				}
+				{
+					id: "79515809FA458400"
+					item: { count: 1, id: "tfmg:capacitor_item" }
+					type: "item"
+				}
+				{
+					id: "0CF36539F6B64FB7"
+					item: { count: 1, id: "tfmg:resistor" }
+					type: "item"
+				}
+				{
+					id: "66B545B93E206D85"
+					item: { count: 1, id: "tfmg:transistor_item" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09F479676208C36D"]
+			icon: {
+				id: "createaddition:connector"
+			}
+			id: "656953F2F0E7B73C"
+			tasks: [
+				{
+					id: "488FCC4937E98600"
+					item: { count: 1, id: "createaddition:electrum_spool" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55CC30A05AB96FBF"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					id: "4331F32CA55B4615"
+					item: { count: 1, id: "createaddition:large_connector" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F162075D86D20E0"
+					item: { count: 1, id: "createaddition:small_light_connector" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D4BD8D84E0534D0"]
+			id: "09F479676208C36D"
+			tasks: [{
+				id: "21DF13EF0FEC57FE"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09F479676208C36D"]
+			id: "1E561E38D5628156"
+			tasks: [{
+				id: "21818714D15C5E91"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09F479676208C36D"]
+			id: "3D5AA1E4DAF68730"
+			tasks: [{
+				id: "6B1422B5CB12F0EC"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E561E38D5628156"]
+			icon: {
+				id: "moreburners:electric_burner"
+			}
+			id: "2ED91097572A0ACC"
+			tasks: [
+				{
+					id: "165CFEDB21F1749C"
+					item: { count: 1, id: "moreburners:electric_burner" }
+					type: "item"
+				}
+				{
+					id: "695308056503EC97"
+					item: { count: 1, id: "moreburners:heat_upgrade" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.0d
+		}
+	]
+}

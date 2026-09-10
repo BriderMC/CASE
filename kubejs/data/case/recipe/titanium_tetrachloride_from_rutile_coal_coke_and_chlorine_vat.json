@@ -1,0 +1,35 @@
+{
+  "type": "tfmg:vat_machine_recipe",
+  "allowed_vat_types": [
+    "tfmg:cast_iron_vat",
+    "tfmg:steel_vat",
+    "tfmg:firebrick_lined_vat"
+  ],
+  "heat_level": 8,
+  "ingredients": [
+    {
+      "item": "northstar:rutile_concentrate"
+    },
+    {
+      "item": "tfmg:coal_coke"
+    },
+    {
+      "item": "tfmg:coal_coke"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 2000,
+      "fluid": "northstar:chlorine"
+    }
+  ],
+  "machines": [
+    "tfmg:mixing"
+  ],
+  "min_size": 1,
+  "results": [
+    {
+      "amount": 1000,
+      "id": "northstar:titanium_tetrachloride"
+    }
+  ]
+}

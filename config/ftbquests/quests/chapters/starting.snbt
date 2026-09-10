@@ -1,0 +1,269 @@
+{
+	autofocus_id: "7D668254D1602303"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting"
+	group: "0A59318266D808D9"
+	icon: {
+		id: "northstar:telescope"
+	}
+	id: "6AB9D0246E6ACF1F"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6CAC4EF67F96768B"
+				"7234E071EB62F6F9"
+				"300AC1AE6EB00083"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "northstar:textures/planet/solar_system/earth/moon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "334E2025B40EE10D"
+			rewards: [
+				{
+					id: "251D664832BC48CE"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "4733363634FE517C"
+					item: {
+						count: 1
+						id: "supplementaries:globe"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "32D06B206F159B99"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38874C2107279987"]
+			id: "6F92DDF06E29E4E4"
+			tasks: [{
+				id: "14FC4A0DBDDB552E"
+				item: { count: 1, id: "northstar:astronomy_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A08B1A8E28FF7D0"]
+			icon: {
+				id: "northstar:rocket_controls"
+			}
+			id: "7234E071EB62F6F9"
+			tasks: [
+				{
+					id: "02D96A363A2F4B4F"
+					item: { count: 1, id: "northstar:rocket_station" }
+					type: "item"
+				}
+				{
+					id: "153A892E49766260"
+					item: { count: 1, id: "northstar:rocket_controls" }
+					type: "item"
+				}
+				{
+					id: "1F16695F80FC046E"
+					item: { count: 1, id: "create:white_seat" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59E6A8E4F57BB9EC"
+					item: { components: { "ftbquests:missing_item": "bits_n_bobs:white_chair" }, count: 1, id: "ftbquests:missing_item" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7234E071EB62F6F9"
+				"629E3657135608B5"
+			]
+			id: "6CAC4EF67F96768B"
+			tasks: [{
+				id: "5BEFCE18C8144B5D"
+				item: { count: 1, id: "northstar:rocket_thruster" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A9A2DEBB335593B"]
+			icon: {
+				id: "northstar:iron_space_suit_helmet"
+			}
+			id: "5A08B1A8E28FF7D0"
+			rewards: [{
+				id: "583917D9FF4F2546"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7EB87C88608A433A"
+					item: { count: 1, id: "northstar:iron_space_suit_helmet" }
+					type: "item"
+				}
+				{
+					id: "1E503EA2CD4847A7"
+					item: { count: 1, id: "northstar:iron_space_suit_chestpiece" }
+					type: "item"
+				}
+				{
+					id: "480B431E212942F8"
+					item: { count: 1, id: "northstar:iron_space_suit_leggings" }
+					type: "item"
+				}
+				{
+					id: "6E6582D7A47BA90E"
+					item: { count: 1, id: "northstar:iron_space_suit_boots" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F92DDF06E29E4E4"]
+			id: "6394162C44BC21EF"
+			tasks: [{
+				id: "3FFD03F8603CF06A"
+				item: { count: 1, id: "northstar:atmospheric_concentrator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6394162C44BC21EF"]
+			id: "5A9A2DEBB335593B"
+			rewards: [{
+				id: "04458137BADA6A88"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "797739AD37331979"
+				item: { count: 1, id: "northstar:oxygen_filler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D668254D1602303"]
+			icon: {
+				id: "northstar:telescope"
+			}
+			id: "38874C2107279987"
+			tasks: [
+				{
+					id: "446F76A78ED6C946"
+					item: { count: 1, id: "northstar:telescope" }
+					type: "item"
+				}
+				{
+					id: "2817E3FB74F38303"
+					item: { count: 1, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7234E071EB62F6F9"]
+			icon: {
+				id: "northstar:titanium_plating"
+			}
+			id: "300AC1AE6EB00083"
+			tasks: [
+				{
+					id: "327A2C1A323704A6"
+					item: { count: 1, id: "northstar:titanium_plating" }
+					type: "item"
+				}
+				{
+					id: "6A2BE5A52FA42C0D"
+					item: { count: 1, id: "northstar:titanium_space_door" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "refinedstorage:textures/gui/sprites/start.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D668254D1602303"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0C196DFCC5CA4902"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "tfmg:fluid/kerosene_still"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "629E3657135608B5"
+			optional: true
+			shape: "square"
+			tasks: [
+				{
+					id: "1C91FBE5F4CDC75A"
+					item: { count: 1, id: "tfmg:kerosene_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "646CA96F1634C40A"
+					item: { count: 1, id: "tfmg:steel_fluid_tank" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "565167CA720F7559"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+	]
+}

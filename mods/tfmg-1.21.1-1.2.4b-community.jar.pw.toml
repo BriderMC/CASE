@@ -1,0 +1,12 @@
+name = "1.2.4b [Community Edition]"
+filename = "tfmg-1.21.1-1.2.4b-community.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "c86ddf31e6a5eda21be5c5de7c405bb91c5a1768"
+
+[update.curseforge]
+project-id = 1653026
+file-id = 8723583

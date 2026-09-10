@@ -1,0 +1,12 @@
+name = "1.2.0.4 for Neoforge 1.21.1"
+filename = "certain_questing_additions-neoforge-1.2.0.4+mc1.21.1.jar"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "afa0dc36e96b1838d6bebfd26aedda993663075d"
+
+[update.curseforge]
+project-id = 1372051
+file-id = 8587867

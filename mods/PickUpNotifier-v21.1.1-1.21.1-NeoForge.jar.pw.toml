@@ -1,0 +1,12 @@
+name = "[NEOFORGE] [1.21.1] PickUpNotifier-v21.1.1"
+filename = "PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "90d3fe207c95a3a5d849ebf8d70ffa885694e30f"
+
+[update.curseforge]
+project-id = 351441
+file-id = 6409785

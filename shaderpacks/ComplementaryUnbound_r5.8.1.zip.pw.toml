@@ -1,0 +1,12 @@
+name = "r5.8.1"
+filename = "ComplementaryUnbound_r5.8.1.zip"
+side = "client"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c"
+
+[update.curseforge]
+project-id = 385587
+file-id = 8123288

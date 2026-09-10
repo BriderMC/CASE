@@ -1,0 +1,42 @@
+{
+  "selector": "#createdeco:coin_piles",
+  "priority": 1200,  
+  "properties": {
+    "sable:mass": 0.1,
+    "sable:volume": 0.1
+  },
+  "overrides": {
+    "layers=1": {
+      "sable:mass": 0.0125,
+      "sable:volume": 0.0125
+    },
+    "layers=2": {
+      "sable:mass": 0.025,
+      "sable:volume": 0.025
+    },
+    "layers=3": {
+      "sable:mass": 0.0375,
+      "sable:volume": 0.0375
+    },
+    "layers=4": {
+      "sable:mass": 0.05,
+      "sable:volume": 0.05
+    },
+    "layers=5": {
+      "sable:mass": 0.0625,
+      "sable:volume": 0.0625
+    },
+    "layers=6": {
+      "sable:mass": 0.075,
+      "sable:volume": 0.075
+    },
+    "layers=7": {
+      "sable:mass": 0.0875,
+      "sable:volume": 0.0875
+    },
+    "layers=8": {
+      "sable:mass": 0.1,
+      "sable:volume": 0.1
+    }
+  }
+}

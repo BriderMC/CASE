@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mekanism:sulfuric_acid",
+    "oritech:still_sulfuric_acid",
+    "northstar:sulfuric_acid",
+    "tfmg:sulfuric_acid"
+  ]
+}

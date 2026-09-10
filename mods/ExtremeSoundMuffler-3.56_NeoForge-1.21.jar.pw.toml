@@ -1,0 +1,12 @@
+name = "Extreme sound muffler 3.56 - NeoForge 1.21.1"
+filename = "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "f8b558f8c464f202f4a88a44332b3a495c0dc727"
+
+[update.curseforge]
+project-id = 363363
+file-id = 7895926

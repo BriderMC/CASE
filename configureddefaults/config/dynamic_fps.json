@@ -1,0 +1,16 @@
+{
+  "idle": {
+    "timeout": 180,
+    "condition": "none"
+  },
+  "states": {
+    "hovered": {
+      "frame_rate_target": 120,
+      "show_toasts": false
+    },
+    "unplugged": {
+      "frame_rate_target": 120,
+      "enable_vsync": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+name = "Create Low-Heated 1.21.1-6.0.10-2"
+filename = "createlowheated-neoforge-1.21.1-6.0.10-2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "9bbb34db6732a84e44c536e38dd583ce178bf70d"
+
+[update.curseforge]
+project-id = 873945
+file-id = 8074971

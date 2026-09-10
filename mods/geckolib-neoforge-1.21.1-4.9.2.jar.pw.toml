@@ -1,0 +1,12 @@
+name = "NeoForge 1.21.1"
+filename = "geckolib-neoforge-1.21.1-4.9.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
+
+[update.curseforge]
+project-id = 388172
+file-id = 8350073

@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:casting_basin",
+  "properties": {
+    "sable:mass": 0.5,
+    "sable:volume": 0.8
+  }
+}

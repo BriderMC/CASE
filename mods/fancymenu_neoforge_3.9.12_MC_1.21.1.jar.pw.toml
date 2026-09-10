@@ -1,0 +1,12 @@
+name = "[NeoForge] v3.9.12 MC 1.21.1"
+filename = "fancymenu_neoforge_3.9.12_MC_1.21.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "388d2380529fc175bfe1337e1a5b46b694284ccb"
+
+[update.curseforge]
+project-id = 367706
+file-id = 8752297

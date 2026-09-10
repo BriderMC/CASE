@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:traffic_light",
+  "properties": {
+    "sable:mass": 0.4,
+    "sable:volume": 1.0
+  }
+}

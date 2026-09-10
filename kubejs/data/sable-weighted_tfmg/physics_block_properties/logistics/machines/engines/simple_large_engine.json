@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:simple_large_engine",
+  "properties": {
+    "sable:mass": 1.75,
+    "sable:volume": 0.6
+  }
+}

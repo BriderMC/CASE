@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "default_packs": [
+    "vanilla",
+    "mod_resources",
+    "fabric",
+    "moonlight:merged_pack",
+    "quest_enhance",
+    "file/Better Lanterns v1.3.2 - 26.2.zip",
+    "file/Gentler Weather Sounds 2.2.0.zip",
+    "file/LowOnFire v26.1\u00a78.zip",
+    "file/Refined Storage - ReCreated v0.7.zip",
+    "file/Create_Simple_Storage_2.1+3D.zip",
+    "file/\u00a72Grassy\u00a70_\u00a72Grass\u00a70_\u00a78[v1]\u00a70.zip",
+    "file/FreshAnimations_v1.10.4.zip",
+    "file/FA+Player-v1.1.zip",
+    "file/tfmg Diesel Generators.zip",
+    "file/Oritech Consistent Pipes Retexture.zip",
+    "file/Oritech Clear Glass.zip",
+    "file/\u00a7eTorches\u00a78-\u00a7eReimagined\u00a70_\u00a78[v1.8]\u00a70.zip",
+    "file/Visual Titles 1.3.zip",
+    "file/Better-Leaves-9.5.zip",
+    "file/Fancy Crops v1.3.zip",
+    "file/Os' Colorful Grasses (Short and Fluffy).zip",
+    "file/FA+Details-v2.2.1.zip",
+    "file/natures_carpet1.21-26.1.1.zip",
+    "file/Simple Lower Grass Sides v1.2.0.zip",
+    "file/CASE Resourcepack.zip"
+  ],
+  "pack_overrides": {
+    "file/Better Lanterns v1.3.2 - 26.2.zip": {
+      "force_compatible": true
+    },
+    "file/natures_carpet1.21-26.1.1.zip": {
+      "force_compatible": true
+    }
+  }
+}

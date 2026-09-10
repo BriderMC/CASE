@@ -1,0 +1,12 @@
+name = "3.2.4-neoforge-1.21"
+filename = "entity_model_features-3.2.4-1.21-neoforge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "fcc0d7cfee5ace4dba159225edd151d90dd924b9"
+
+[update.curseforge]
+project-id = 844662
+file-id = 8063559

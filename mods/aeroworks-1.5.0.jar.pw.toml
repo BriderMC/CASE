@@ -1,0 +1,12 @@
+name = "1.5.0+mc1.21.1"
+filename = "aeroworks-1.5.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "a14ff1c30f3c824b36ee6e2e711a47fd537a5c5f"
+
+[update.curseforge]
+project-id = 1522473
+file-id = 8743051

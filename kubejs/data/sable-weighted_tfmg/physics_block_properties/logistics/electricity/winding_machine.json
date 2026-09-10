@@ -1,0 +1,7 @@
+{
+  "selector": "tfmg:winding_machine",
+  "properties": {
+    "sable:mass": 0.75,
+    "sable:volume": 0.75
+  }
+}

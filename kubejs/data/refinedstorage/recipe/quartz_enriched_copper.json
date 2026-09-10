@@ -1,0 +1,15 @@
+{
+  "type": "northstar:engraving",
+  "ingredients": [
+    {
+      "tag": "c:plates/copper"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "refinedstorage:quartz_enriched_copper",
+      "count": 1
+    }
+  ]
+}
