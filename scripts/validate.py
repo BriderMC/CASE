@@ -15,7 +15,7 @@ def digest(path, algorithm):
 
 def validate(archive_path=None):
     pack = tomllib.loads((ROOT / 'pack.toml').read_text('utf-8'))
-    assert pack['version'] == '0.1' and pack['author'] == 'BriderMC'
+    assert pack['author'] == 'BriderMC'
     assert digest(ROOT / 'index.toml', pack['index']['hash-format']) == pack['index']['hash']
     index = tomllib.loads((ROOT / 'index.toml').read_text('utf-8'))
     downloads, overrides = set(), {}
@@ -35,7 +35,9 @@ def validate(archive_path=None):
         else:
             overrides[item['file']] = path.read_bytes()
     release = json.loads((ROOT / 'documentation/release.json').read_text('utf-8'))
+    assert pack['version'] == release['version']
     assert len(downloads) == release['download_references']
+    assert not {8013976, 8622762}.intersection(file_id for _, file_id in downloads)
     for folder in ['mods', 'resourcepacks', 'shaderpacks']:
         for path in (ROOT / folder).iterdir():
             if path.is_file():

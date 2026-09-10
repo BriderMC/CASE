@@ -758,7 +758,7 @@ hash = "36264e0e3ccd78240bf655ef3a955ae68e3ebbe9ad1ed374cd2d218f383aff27"
 
 [[files]]
 file = "configureddefaults/config/resourcepackoverrides.json"
-hash = "ee3e8ab5d43acc7e1fcf54865e4d5b49c703e1cd11df6cf3d5d86ae69bf6782e"
+hash = "5a37247c2b9e14300f9b9cb5692531c637430721d2b4ce828342090709ea995d"
 
 [[files]]
 file = "configureddefaults/config/sereneseasons/seasons.toml"
@@ -4845,11 +4845,6 @@ hash = "14a359ed9ed3e85cf66ac1990a2628aed81563e3fc012d573c7c90258f1d9a03"
 metafile = true
 
 [[files]]
-file = "mods/SSRD-1.8.5-1.21.1.jar.pw.toml"
-hash = "6ed96b8cf443bc93292cbd88d1c7f2aaed485c60c1f70821b6502a07e3f7d735"
-metafile = true
-
-[[files]]
 file = "mods/Searchables-neoforge-1.21.1-1.0.2.jar.pw.toml"
 hash = "7b4662b7e21fcc051e1eb10927f182c972c09136c7961077d955a932da44e735"
 metafile = true
@@ -6051,11 +6046,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/Oritech Clear Glass.zip.pw.toml"
 hash = "2c23ed1b22d7a0355b3cd55f36915dec5e0b3b486c6b62d5122baab112714b43"
-metafile = true
-
-[[files]]
-file = "resourcepacks/Os' Colorful Grasses (Short and Fluffy).zip.pw.toml"
-hash = "85fdab25ceb22e5feba95ba560b6b21e1bdf7bd00b3746f4bd63b81b6ed571e8"
 metafile = true
 
 [[files]]

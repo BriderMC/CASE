@@ -5,17 +5,17 @@
 CASE is a Minecraft **1.21.1 / NeoForge 21.1.248** modpack built around Create,
 Aeronautics, technology progression, custom recipes, and quests.
 
-## Release 0.1
+## Release 0.1.1
 
 This repository contains release snapshots only. Active development is maintained
-separately. Version 0.1 is prepared for CurseForge; the archive is
-`CASE-0.1-curseforge.zip`. Its checksum is recorded in
+separately. Version 0.1.1 is prepared for CurseForge; the archive is
+`CASE-0.1.1-curseforge.zip`. Its checksum is recorded in
 [release metadata](documentation/release.json). Uploading the pack to CurseForge
 is managed by the author.
 
 Import the CurseForge ZIP into PrismLauncher with **Add Instance → Import**,
 or install the published pack through CurseForge. Use Java 21. The archive uses
-308 CurseForge project/file references; mod JARs are downloaded from their hosts.
+306 CurseForge project/file references; mod JARs are downloaded from their hosts.
 No mod JARs are stored in this repository or bundled in the archive.
 
 ## Included source
@@ -37,11 +37,18 @@ To validate and export the native CurseForge release with Python 3.11+ and packw
 
 ```sh
 python scripts/validate.py
-packwiz curseforge export -o CASE-0.1-curseforge.zip
+packwiz curseforge export -o CASE-0.1.1-curseforge.zip
 ```
 
 The repository starts with a clean release snapshot; private development history
 is not included. Publishing releases is managed by BriderMC.
+
+## Changes in 0.1.1
+
+- Excludes Os’ Colorful Grasses and Separate Sable Render Distance from the
+  CurseForge edition because their CurseForge project/file statuses prevent acceptance.
+- Removes the excluded grass pack from default resource-pack settings.
+- All 306 remaining references passed the live CurseForge status check before export.
 
 ## Changes in 0.1
 

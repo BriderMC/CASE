@@ -1,8 +1,8 @@
 {
-  "version": "0.1",
+  "version": "0.1.1",
   "platform": "curseforge",
-  "archive": "CASE-0.1-curseforge.zip",
-  "sha256": "9316599f3f22cc7dc90abceec97aa36f70dbf3b759c6b5cc6ad2dafe5bbba401",
-  "download_references": 308,
+  "archive": "CASE-0.1.1-curseforge.zip",
+  "sha256": "648d365f8aeefc4365a5bf73b6002e5bb1715f619a13f476a57ac69e58d7aaaf",
+  "download_references": 306,
   "zip_only_files": []
 }

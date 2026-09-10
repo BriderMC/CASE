@@ -1,13 +1,13 @@
 name = "CASE"
 author = "BriderMC"
-version = "0.1"
+version = "0.1.1"
 description = "Create Aeronautics: Space Exploration"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "96ee652dc52cba4e3f41d721d0aa316c1be36a71c50d5d6251d037a6987b6996"
+hash = "7e89f9eb29432829b8a3daeec7cb0c9e37ea99979721dcc9dd1d961c0367919b"
 
 [versions]
 minecraft = "1.21.1"
